@@ -1,0 +1,10 @@
+{
+	"confirm_anim": "grunt_anims",
+	"idle_anim": "line",
+	"position": [
+		139,
+		-6
+	],
+	"scale": 0.65,
+	"image": "grunt_anims"
+}

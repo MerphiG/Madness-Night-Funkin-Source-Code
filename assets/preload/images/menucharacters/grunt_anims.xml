@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="grunt line_anim.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="line0000" x="0" y="0" width="392" height="429" frameX="-28" frameY="0" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0001" x="392" y="0" width="402" height="424" frameX="-23" frameY="-6" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0002" x="392" y="0" width="402" height="424" frameX="-23" frameY="-6" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0003" x="0" y="429" width="416" height="416" frameX="-16" frameY="-14" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0004" x="416" y="429" width="440" height="400" frameX="-4" frameY="-30" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0005" x="416" y="429" width="440" height="400" frameX="-4" frameY="-30" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0006" x="416" y="429" width="440" height="400" frameX="-4" frameY="-30" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0007" x="0" y="845" width="448" height="393" frameX="0" frameY="-36" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0008" x="448" y="845" width="432" height="400" frameX="-8" frameY="-30" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0009" x="448" y="845" width="432" height="400" frameX="-8" frameY="-30" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0010" x="0" y="1245" width="403" height="418" frameX="-22" frameY="-12" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0011" x="0" y="1245" width="403" height="418" frameX="-22" frameY="-12" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0012" x="0" y="1245" width="403" height="418" frameX="-22" frameY="-12" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0013" x="0" y="1245" width="403" height="418" frameX="-22" frameY="-12" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0014" x="0" y="1245" width="403" height="418" frameX="-22" frameY="-12" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0015" x="0" y="1245" width="403" height="418" frameX="-22" frameY="-12" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0016" x="0" y="1245" width="403" height="418" frameX="-22" frameY="-12" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0017" x="0" y="1245" width="403" height="418" frameX="-22" frameY="-12" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0018" x="0" y="1245" width="403" height="418" frameX="-22" frameY="-12" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0019" x="0" y="1245" width="403" height="418" frameX="-22" frameY="-12" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0020" x="0" y="1245" width="403" height="418" frameX="-22" frameY="-12" frameWidth="448" frameHeight="430"/>
+	<SubTexture name="line0021" x="0" y="1245" width="403" height="418" frameX="-22" frameY="-12" frameWidth="448" frameHeight="430"/>
+</TextureAtlas>

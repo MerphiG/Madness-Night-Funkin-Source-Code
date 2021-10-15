@@ -1,0 +1,48 @@
+{
+	"storyName": "vs grunt",
+	"hideFreeplay": false,
+	"weekBackground": "gruntstage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial-rmx",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"grunt",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"reversal",
+			"grunt",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"lyrics",
+			"grunt",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"target",
+			"gruntgun",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "week1"
+}
