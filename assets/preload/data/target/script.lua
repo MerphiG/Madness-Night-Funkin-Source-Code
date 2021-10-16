@@ -1,6 +1,6 @@
 local allowCountdown = false
 function onEndSong()
-	if not allowCountdown and isStoryMode and not seenCutscene then --Block the first countdown
+	if not allowCountdown and isStoryMode then
 		startVideo('CutsceneGrunt3');
 		allowCountdown = true;
 		return Function_Stop;

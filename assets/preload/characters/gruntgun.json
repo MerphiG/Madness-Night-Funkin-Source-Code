@@ -1,81 +1,81 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				103,
+				323,
 				28
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "left_gun",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left_gun"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				29,
+				269,
 				-43
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "down_gun",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down_gun"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-18,
+				212,
 				-36
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Right_gun",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				63,
-				44
-			],
-			"anim": "singUP",
-			"fps": 24,
-			"name": "Uo_gun",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				36,
-				44
-			],
-			"anim": "shot",
-			"fps": 24,
-			"name": "Grunt_shot",
-			"indices": []
-		},
-		{
-			"loop": true,
-			"offsets": [
-				38,
-				43
-			],
-			"anim": "idle",
-			"fps": 24,
-			"name": "Idle_gun",
-			"indices": []
-		},
-		{
-			"offsets": [
-				34,
-				43
-			],
 			"indices": [],
-			"fps": 24,
-			"anim": "recharge",
+			"name": "Right_gun"
+		},
+		{
+			"offsets": [
+				283,
+				44
+			],
 			"loop": false,
-			"name": "recharging"
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Uo_gun"
+		},
+		{
+			"offsets": [
+				256,
+				44
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "shot",
+			"indices": [],
+			"name": "Grunt_shot"
+		},
+		{
+			"offsets": [
+				258,
+				43
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle_gun"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				254,
+				43
+			],
+			"anim": "recharge",
+			"fps": 24,
+			"name": "recharging",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -96,5 +96,5 @@
 		-30
 	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 1.1
 }
