@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Madness Night Funkin" file="Madness" packageName="com.madnessteam.madnessfunkin" package="com.madnessteam.madnessfunkin" main="Main" version="1.0" company="MadnessTeam" />
+	<app title="Madness Night Funkin" file="Madness" packageName="com.madnessteam.madnessfunkin" package="com.madnessteam.madnessfunkin" main="Main" version="1.1" company="MadnessTeam" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />

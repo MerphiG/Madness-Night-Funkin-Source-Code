@@ -1,45 +1,27 @@
 {
-	"storyName": "vs grunt",
+	"storyName": "Tutorial :D",
 	"hideFreeplay": false,
-	"weekBackground": "gruntstage",
+	"weekBackground": "stagermx",
+	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "tutorial-rmx",
 	"startUnlocked": true,
 	"weekCharacters": [
-		"grunt",
+		"trickymask",
 		"bf",
 		"gf"
 	],
 	"songs": [
 		[
-			"reversal",
-			"grunt",
+			"tutorial",
+			"trickymask",
 			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"lyrics",
-			"grunt",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"target",
-			"gruntgun",
-			[
-				146,
-				113,
-				253
+				0,
+				120,
+				44
 			]
 		]
 	],

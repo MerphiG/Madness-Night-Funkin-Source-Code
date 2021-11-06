@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				765,
+				701
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "taburetidle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				769,
+				678
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "taburetdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1001,
+				694
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "taburetleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				764,
+				1022
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "taburetup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				762,
+				698
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "taburetright",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/taburet",
+	"position": [
+		200,
+		320
+	],
+	"healthicon": "taburet",
+	"flip_x": false,
+	"healthbar_colors": [
+		140,
+		60,
+		60
+	],
+	"camera_position": [
+		-700,
+		-450
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

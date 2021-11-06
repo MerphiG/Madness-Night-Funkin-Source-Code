@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="taburet.png">
+	<SubTexture name="taburetdown0000" x="4" y="4" width="1425" height="1120" frameX="-31" frameY="-384" frameWidth="1518" frameHeight="1541"/>
+	<SubTexture name="taburetdown0001" x="1433" y="4" width="1447" height="1268" frameX="-14" frameY="-256" frameWidth="1518" frameHeight="1541"/>
+	<SubTexture name="taburetdown0002" x="2884" y="4" width="1518" height="1432" frameX="0" frameY="-109" frameWidth="1518" frameHeight="1541"/>
+	<SubTexture name="taburetdown0003" x="4406" y="4" width="1418" height="1522" frameX="-14" frameY="0" frameWidth="1518" frameHeight="1541"/>
+	<SubTexture name="taburetdown0004" x="4406" y="4" width="1418" height="1522" frameX="-14" frameY="0" frameWidth="1518" frameHeight="1541"/>
+	<SubTexture name="taburetdown0005" x="4406" y="4" width="1418" height="1522" frameX="-14" frameY="0" frameWidth="1518" frameHeight="1541"/>
+	<SubTexture name="taburetdown0006" x="4406" y="4" width="1418" height="1522" frameX="-14" frameY="0" frameWidth="1518" frameHeight="1541"/>
+	<SubTexture name="taburetdown0007" x="4406" y="4" width="1418" height="1522" frameX="-14" frameY="0" frameWidth="1518" frameHeight="1541"/>
+	<SubTexture name="taburetdown0008" x="4406" y="4" width="1418" height="1522" frameX="-14" frameY="0" frameWidth="1518" frameHeight="1541"/>
+	<SubTexture name="taburetdown0009" x="4406" y="4" width="1418" height="1522" frameX="-14" frameY="0" frameWidth="1518" frameHeight="1541"/>
+	<SubTexture name="taburetidle0000" x="5828" y="4" width="1425" height="1520" frameX="-31" frameY="0" frameWidth="1518" frameHeight="1558"/>
+	<SubTexture name="taburetidle0001" x="4" y="1530" width="1447" height="1530" frameX="-14" frameY="-9" frameWidth="1518" frameHeight="1558"/>
+	<SubTexture name="taburetidle0002" x="1455" y="1530" width="1518" height="1538" frameX="0" frameY="-20" frameWidth="1518" frameHeight="1558"/>
+	<SubTexture name="taburetidle0003" x="2977" y="1530" width="1418" height="1522" frameX="-14" frameY="-17" frameWidth="1518" frameHeight="1558"/>
+	<SubTexture name="taburetleft0000" x="4399" y="1530" width="1491" height="1520" frameX="0" frameY="0" frameWidth="1674" frameHeight="1558"/>
+	<SubTexture name="taburetleft0001" x="5894" y="1530" width="1480" height="1530" frameX="-78" frameY="-9" frameWidth="1674" frameHeight="1558"/>
+	<SubTexture name="taburetleft0002" x="4" y="3072" width="1541" height="1538" frameX="-133" frameY="-20" frameWidth="1674" frameHeight="1558"/>
+	<SubTexture name="taburetleft0003" x="2977" y="1530" width="1418" height="1522" frameX="-236" frameY="-17" frameWidth="1518" frameHeight="1558"/>
+	<SubTexture name="taburetleft0004" x="2977" y="1530" width="1418" height="1522" frameX="-236" frameY="-17" frameWidth="1518" frameHeight="1558"/>
+	<SubTexture name="taburetleft0005" x="2977" y="1530" width="1418" height="1522" frameX="-236" frameY="-17" frameWidth="1518" frameHeight="1558"/>
+	<SubTexture name="taburetleft0006" x="2977" y="1530" width="1418" height="1522" frameX="-236" frameY="-17" frameWidth="1518" frameHeight="1558"/>
+	<SubTexture name="taburetleft0007" x="2977" y="1530" width="1418" height="1522" frameX="-236" frameY="-17" frameWidth="1518" frameHeight="1558"/>
+	<SubTexture name="taburetleft0008" x="2977" y="1530" width="1418" height="1522" frameX="-236" frameY="-17" frameWidth="1518" frameHeight="1558"/>
+	<SubTexture name="taburetleft0009" x="2977" y="1530" width="1418" height="1522" frameX="-236" frameY="-17" frameWidth="1518" frameHeight="1558"/>
+	<SubTexture name="taburetright0000" x="1549" y="3072" width="1579" height="1520" frameX="-42" frameY="0" frameWidth="1621" frameHeight="1558"/>
+	<SubTexture name="taburetright0001" x="3132" y="3072" width="1547" height="1530" frameX="-23" frameY="-9" frameWidth="1621" frameHeight="1558"/>
+	<SubTexture name="taburetright0002" x="4683" y="3072" width="1547" height="1538" frameX="-15" frameY="-20" frameWidth="1621" frameHeight="1558"/>
+	<SubTexture name="taburetright0003" x="6234" y="3072" width="1418" height="1522" frameX="0" frameY="-17" frameWidth="1621" frameHeight="1558"/>
+	<SubTexture name="taburetright0004" x="6234" y="3072" width="1418" height="1522" frameX="0" frameY="-17" frameWidth="1621" frameHeight="1558"/>
+	<SubTexture name="taburetright0005" x="6234" y="3072" width="1418" height="1522" frameX="0" frameY="-17" frameWidth="1621" frameHeight="1558"/>
+	<SubTexture name="taburetright0006" x="6234" y="3072" width="1418" height="1522" frameX="0" frameY="-17" frameWidth="1621" frameHeight="1558"/>
+	<SubTexture name="taburetright0007" x="6234" y="3072" width="1418" height="1522" frameX="0" frameY="-17" frameWidth="1621" frameHeight="1558"/>
+	<SubTexture name="taburetright0008" x="6234" y="3072" width="1418" height="1522" frameX="0" frameY="-17" frameWidth="1621" frameHeight="1558"/>
+	<SubTexture name="taburetright0009" x="6234" y="3072" width="1418" height="1522" frameX="0" frameY="-17" frameWidth="1621" frameHeight="1558"/>
+	<SubTexture name="taburetup0000" x="4" y="4614" width="1425" height="1833" frameX="-17" frameY="0" frameWidth="1470" frameHeight="1873"/>
+	<SubTexture name="taburetup0001" x="1433" y="4614" width="1447" height="1724" frameX="0" frameY="-130" frameWidth="1470" frameHeight="1873"/>
+	<SubTexture name="taburetup0002" x="2884" y="4614" width="1450" height="1645" frameX="-20" frameY="-228" frameWidth="1470" frameHeight="1873"/>
+	<SubTexture name="taburetup0003" x="6234" y="3072" width="1418" height="1522" frameX="0" frameY="-332" frameWidth="1621" frameHeight="1558"/>
+	<SubTexture name="taburetup0004" x="6234" y="3072" width="1418" height="1522" frameX="0" frameY="-332" frameWidth="1621" frameHeight="1558"/>
+	<SubTexture name="taburetup0005" x="6234" y="3072" width="1418" height="1522" frameX="0" frameY="-332" frameWidth="1621" frameHeight="1558"/>
+	<SubTexture name="taburetup0006" x="6234" y="3072" width="1418" height="1522" frameX="0" frameY="-332" frameWidth="1621" frameHeight="1558"/>
+	<SubTexture name="taburetup0007" x="6234" y="3072" width="1418" height="1522" frameX="0" frameY="-332" frameWidth="1621" frameHeight="1558"/>
+	<SubTexture name="taburetup0008" x="6234" y="3072" width="1418" height="1522" frameX="0" frameY="-332" frameWidth="1621" frameHeight="1558"/>
+	<SubTexture name="taburetup0009" x="6234" y="3072" width="1418" height="1522" frameX="0" frameY="-332" frameWidth="1621" frameHeight="1558"/>
+</TextureAtlas>
