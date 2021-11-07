@@ -29,7 +29,7 @@ class CreditsState extends MusicBeatState
 		['GrishaAsd',		'grishaasd',	"Coder Of Madness Team",				'https://youtube.com/c/GrishaAsd',						0xFFff005d],
 		['Merphi',			'merphi',		"Coder & Artist Of Madness Team",		'https://youtube.com/c/MerphIPlaY',						0xFF0394fc],
 		['MaxPlayer',		'maxplayer',	"Organizer & Artist Of Madness Team",	'https://youtube.com/channel/UCfzQXW-LX5ACh7gLbQhPm0A',	0xFF1fb852],
-		['Mastec',			'mastec',		"Songwriter Of Madness Team",			'https://youtube.com/channel/UCmzvAu5XvjzHaSfueBNNhZw',	0xFFba0000],
+		['Mastex',			'mastec',		"Songwriter Of Madness Team",			'https://youtube.com/channel/UCmzvAu5XvjzHaSfueBNNhZw',	0xFFba0000],
 		['HRistofor4ik',	'hristofor',	"Songwriter Of Madness Team",			'https://youtube.com/channel/UCrmmU6n4OZK_1fSB04ZJe3A',	0xFFFF2850],
 		['HopKa',			'hopka',		"Animator Of Madness Team",				'https://youtube.com/c/DennissGamerGD',					0xFF999999],
 		['Jaba',			'jaba',			"Artist Of Madness Team",				'https://youtube.com/channel/UCyvHNTla33TPP5vX5e9FNPw',	0xFFCCC29F]
