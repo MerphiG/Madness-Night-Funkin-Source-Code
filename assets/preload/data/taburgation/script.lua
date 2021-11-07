@@ -56,7 +56,7 @@ function onCreate()
     setProperty('signPost4.angle', -90)
     setPropertyLuaSprite('signPost4', 'alpha', 0)
 
-    makeAnimatedLuaSprite('Clone', 'Clone', 173, 405);
+    makeAnimatedLuaSprite('Clone', 'Clone', 250, 405);
     luaSpriteAddAnimationByPrefix('Clone', 'Clone', 'Clone', 24, false);
     scaleLuaSprite('Clone', 0.55, 0.55);
     addLuaSprite('Clone', false);

@@ -25,10 +25,14 @@ class CreditsState extends MusicBeatState
 
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
 		["MadnessTeam"],
-		['GrishaAsd',		'grishaasd',	"Coder Of Madness Team",				'https://www.youtube.com/c/GrishaAsd',	0xFFff005d],
-		['Merphi',		'merphi',	"Coder Of Madness Team",					'https://youtube.com/c/MerphIPlaY',	0xFF0394fc],
-		['MaxPlayer',			'maxplayer',			"Organizer & Artist Of Madness Team",					'https://www.youtube.com/channel/UCfzQXW-LX5ACh7gLbQhPm0A',			0xFF1fb852],
-		['Mastec',			'mastec',		"Songwriter Of Madness Team",					'https://www.youtube.com/channel/UCmzvAu5XvjzHaSfueBNNhZw',		0xFFba0000]
+		['Discord',			'discord',		"Madness Team Discord Server",			'https://discord.gg/GF2fpHpqtG',						0xFF5F96B6],
+		['GrishaAsd',		'grishaasd',	"Coder Of Madness Team",				'https://youtube.com/c/GrishaAsd',						0xFFff005d],
+		['Merphi',			'merphi',		"Coder & Artist Of Madness Team",		'https://youtube.com/c/MerphIPlaY',						0xFF0394fc],
+		['MaxPlayer',		'maxplayer',	"Organizer & Artist Of Madness Team",	'https://youtube.com/channel/UCfzQXW-LX5ACh7gLbQhPm0A',	0xFF1fb852],
+		['Mastec',			'mastec',		"Songwriter Of Madness Team",			'https://youtube.com/channel/UCmzvAu5XvjzHaSfueBNNhZw',	0xFFba0000],
+		['HRistofor4ik',	'hristofor',	"Songwriter Of Madness Team",			'https://youtube.com/channel/UCrmmU6n4OZK_1fSB04ZJe3A',	0xFFFF2850],
+		['HopKa',			'hopka',		"Animator Of Madness Team",				'https://youtube.com/c/DennissGamerGD',					0xFF999999],
+		['Jaba',			'jaba',			"Artist Of Madness Team",				'https://youtube.com/channel/UCyvHNTla33TPP5vX5e9FNPw',	0xFFCCC29F]
 	];
 
 	var bg:FlxSprite;
