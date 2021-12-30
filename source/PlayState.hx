@@ -1065,15 +1065,6 @@ class PlayState extends MusicBeatState
 		{
 			switch (daSong)
 			{					
-				case 'reversal':
-					startVideo('CutsceneGrunt1');
-						
-				case 'target':
-					startVideo('CutsceneGrunt2');
-					
-				case 'recharge':
-					startVideo('CutsceneGrunt3');
-				
 				default:
 					startCountdown();
 			}
