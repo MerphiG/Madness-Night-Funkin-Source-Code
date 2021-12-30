@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				234,
+				-28
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "sanfo Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				231,
+				-29
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "sanfo Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				234,
+				-28
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "sanfo Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				234,
+				-28
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "sanfo Up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				234,
+				-28
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "sanfo Idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sanfo",
+	"position": [
+		200,
+		310
+	],
+	"healthicon": "sanfo",
+	"flip_x": false,
+	"healthbar_colors": [
+		60,
+		60,
+		80
+	],
+	"camera_position": [
+		-210,
+		-110
+	],
+	"sing_duration": 4,
+	"scale": 1.2
+}

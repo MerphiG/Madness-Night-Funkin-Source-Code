@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="deimos_chill.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="deimos_chill0000" x="0" y="0" width="345" height="435" frameX="0" frameY="-20" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0001" x="345" y="0" width="345" height="435" frameX="0" frameY="-19" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0002" x="690" y="0" width="344" height="435" frameX="-1" frameY="-18" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0003" x="1034" y="0" width="344" height="436" frameX="-1" frameY="-17" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0004" x="1378" y="0" width="343" height="435" frameX="-2" frameY="-17" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0005" x="1721" y="0" width="342" height="435" frameX="-3" frameY="-16" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0006" x="2063" y="0" width="342" height="435" frameX="-3" frameY="-15" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0007" x="2405" y="0" width="341" height="436" frameX="-4" frameY="-14" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0008" x="2746" y="0" width="341" height="436" frameX="-4" frameY="-13" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0009" x="3087" y="0" width="340" height="435" frameX="-5" frameY="-13" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0010" x="3427" y="0" width="339" height="435" frameX="-6" frameY="-12" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0011" x="0" y="436" width="339" height="436" frameX="-6" frameY="-11" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0012" x="339" y="436" width="338" height="436" frameX="-7" frameY="-10" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0013" x="677" y="436" width="338" height="435" frameX="-7" frameY="-10" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0014" x="1015" y="436" width="337" height="435" frameX="-8" frameY="-9" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0015" x="1352" y="436" width="337" height="436" frameX="-8" frameY="-8" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0016" x="1689" y="436" width="336" height="436" frameX="-9" frameY="-7" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0017" x="2025" y="436" width="335" height="435" frameX="-10" frameY="-7" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0018" x="2360" y="436" width="335" height="435" frameX="-10" frameY="-6" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0019" x="2695" y="436" width="334" height="436" frameX="-11" frameY="-5" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0020" x="3029" y="436" width="334" height="436" frameX="-11" frameY="-4" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0021" x="3363" y="436" width="333" height="435" frameX="-12" frameY="-4" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0022" x="3696" y="436" width="332" height="435" frameX="-13" frameY="-3" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0023" x="0" y="872" width="332" height="436" frameX="-13" frameY="-2" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0024" x="332" y="872" width="331" height="436" frameX="-14" frameY="-1" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0025" x="663" y="872" width="331" height="435" frameX="-14" frameY="-1" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0026" x="994" y="872" width="330" height="435" frameX="-15" frameY="0" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0027" x="1324" y="872" width="316" height="298" frameX="-16" frameY="-94" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0028" x="1640" y="872" width="316" height="298" frameX="-16" frameY="-93" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0029" x="1956" y="872" width="315" height="298" frameX="-17" frameY="-92" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0030" x="2271" y="872" width="314" height="306" frameX="-17" frameY="-96" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0031" x="2585" y="872" width="315" height="305" frameX="-17" frameY="-95" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0032" x="2900" y="872" width="316" height="304" frameX="-16" frameY="-94" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0033" x="3216" y="872" width="316" height="302" frameX="-16" frameY="-94" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0034" x="3532" y="872" width="317" height="302" frameX="-15" frameY="-93" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0035" x="0" y="1308" width="318" height="302" frameX="-14" frameY="-92" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0036" x="318" y="1308" width="319" height="302" frameX="-14" frameY="-91" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0037" x="637" y="1308" width="320" height="302" frameX="-13" frameY="-90" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0038" x="957" y="1308" width="321" height="302" frameX="-12" frameY="-89" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0039" x="1278" y="1308" width="333" height="435" frameX="-12" frameY="-20" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0040" x="1611" y="1308" width="334" height="435" frameX="-11" frameY="-19" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0041" x="1945" y="1308" width="334" height="435" frameX="-11" frameY="-18" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0042" x="2279" y="1308" width="335" height="435" frameX="-10" frameY="-17" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0043" x="2614" y="1308" width="336" height="435" frameX="-9" frameY="-16" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0044" x="2950" y="1308" width="336" height="435" frameX="-9" frameY="-15" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0045" x="3286" y="1308" width="337" height="435" frameX="-8" frameY="-14" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0046" x="3623" y="1308" width="337" height="435" frameX="-8" frameY="-13" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0047" x="0" y="1743" width="338" height="435" frameX="-7" frameY="-12" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0048" x="338" y="1743" width="339" height="435" frameX="-6" frameY="-11" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0049" x="677" y="1743" width="339" height="435" frameX="-6" frameY="-10" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0050" x="1016" y="1743" width="340" height="435" frameX="-5" frameY="-9" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0051" x="1356" y="1743" width="340" height="435" frameX="-5" frameY="-8" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0052" x="1696" y="1743" width="341" height="435" frameX="-4" frameY="-7" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0053" x="2037" y="1743" width="342" height="435" frameX="-3" frameY="-6" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0054" x="2379" y="1743" width="342" height="435" frameX="-3" frameY="-5" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0055" x="2721" y="1743" width="343" height="435" frameX="-2" frameY="-4" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0056" x="3064" y="1743" width="344" height="435" frameX="-1" frameY="-3" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0057" x="3408" y="1743" width="344" height="435" frameX="-1" frameY="-2" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0058" x="0" y="2178" width="345" height="435" frameX="0" frameY="-1" frameWidth="345" frameHeight="455"/>
+	<SubTexture name="deimos_chill0059" x="345" y="2178" width="345" height="435" frameX="0" frameY="0" frameWidth="345" frameHeight="455"/>
+</TextureAtlas>

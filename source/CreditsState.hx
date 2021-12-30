@@ -1,170 +1,327 @@
 package;
 
-#if desktop
-import Discord.DiscordClient;
-#end
+import Controls.KeyboardScheme;
+import Controls.Control;
 import flash.text.TextField;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.addons.display.FlxGridOverlay;
 import flixel.group.FlxGroup.FlxTypedGroup;
+import flixel.input.keyboard.FlxKey;
 import flixel.math.FlxMath;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
-import flixel.tweens.FlxTween;
+import flixel.util.FlxTimer;
 import lime.utils.Assets;
-
-using StringTools;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
 
 class CreditsState extends MusicBeatState
 {
-	var curSelected:Int = 1;
-
-	private var grpOptions:FlxTypedGroup<Alphabet>;
-	private var iconArray:Array<AttachedSprite> = [];
-
-	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
-		["MadnessTeam"],
-		['Discord',			'discord',		"Madness Team Discord Server",			'https://discord.gg/GF2fpHpqtG',						0xFF5F96B6],
-		['GrishaAsd',		'grishaasd',	"Coder Of Madness Team",				'https://youtube.com/c/GrishaAsd',						0xFFff005d],
-		['Merphi',			'merphi',		"Coder & Artist Of Madness Team",		'https://youtube.com/c/MerphIPlaY',						0xFF0394fc],
-		['MaxPlayer',		'maxplayer',	"Organizer & Artist Of Madness Team",	'https://youtube.com/channel/UCfzQXW-LX5ACh7gLbQhPm0A',	0xFF1fb852],
-		['Mastex',			'mastec',		"Songwriter Of Madness Team",			'https://youtube.com/channel/UCmzvAu5XvjzHaSfueBNNhZw',	0xFFba0000],
-		['HRistofor4ik',	'hristofor',	"Songwriter Of Madness Team",			'https://youtube.com/channel/UCrmmU6n4OZK_1fSB04ZJe3A',	0xFFFF2850],
-		['HopKa',			'hopka',		"Animator Of Madness Team",				'https://youtube.com/c/DennissGamerGD',					0xFF999999],
-		['Jaba',			'jaba',			"Artist Of Madness Team",				'https://youtube.com/channel/UCyvHNTla33TPP5vX5e9FNPw',	0xFFCCC29F]
-	];
+	var curSelected:Int = 0;
 
 	var bg:FlxSprite;
-	var descText:FlxText;
-	var intendedColor:Int;
-	var colorTween:FlxTween;
+	var upthing:FlxSprite;
+	var downthing:FlxSprite;
+
+	var leftArrow:FlxSprite;
+	var rightArrow:FlxSprite;
+
+	var credits:FlxTypedGroup<Credit>;
+	var canmove:Bool = false;
 
 	override function create()
 	{
-		#if desktop
-		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
-		#end
-
-		bg = new FlxSprite().loadGraphic(Paths.image('BG'));
+		bg = new FlxSprite().loadGraphic(Paths.image('credits/creditsbg'));
+		bg.updateHitbox();
+		bg.screenCenter();
+		bg.antialiasing = true;
 		add(bg);
 
-		grpOptions = new FlxTypedGroup<Alphabet>();
-		add(grpOptions);
+		FlxG.camera.zoom = 1.2;
+		FlxTween.tween(FlxG.camera, {zoom: 1}, 0.8);
 
-		for (i in 0...creditsStuff.length)
-		{
-			var isSelectable:Bool = !unselectableCheck(i);
-			var optionText:Alphabet = new Alphabet(0, 70 * i, creditsStuff[i][0], !isSelectable, false);
-			optionText.isMenuItem = true;
-			optionText.screenCenter(X);
-			if(isSelectable) {
-				optionText.x -= 70;
-			}
-			optionText.forceX = optionText.x;
-			//optionText.yMult = 90;
-			optionText.targetY = i;
-			grpOptions.add(optionText);
+		upthing = new FlxSprite(0,-720).loadGraphic(Paths.image('credits/upperbarrier'));
+		upthing.antialiasing = true;
+		add(upthing);
 
-			if(isSelectable) {
-				var icon:AttachedSprite = new AttachedSprite('credits/' + creditsStuff[i][1]);
-				icon.xAdd = optionText.width + 10;
-				icon.sprTracker = optionText;
-	
-				// using a FlxGroup is too much fuss!
-				iconArray.push(icon);
-				add(icon);
+		FlxTween.tween(upthing, {y: 0}, 0.8, {
+			ease: FlxEase.quadOut,
+			startDelay: 0.2,
+		});
+
+		downthing = new FlxSprite(0,720).loadGraphic(Paths.image('credits/lowerbarrier'));
+		downthing.antialiasing = true;
+		add(downthing);
+
+		FlxTween.tween(downthing, {y: 0}, 0.8, {
+			ease: FlxEase.quadOut,
+			startDelay: 0.2,
+		});
+
+		credits = new FlxTypedGroup<Credit>();
+		add(credits);
+
+		for (i in 0...13) {
+			var iconthingy:Credit = new Credit();
+			switch (i) {
+				case 0:
+					iconthingy = new Credit(80, 138, 'grishaasd', 'https://youtube.com/c/GrishaAsd',0.7,0.7);
+				case 1:
+					iconthingy = new Credit(80, 260, 'merphi', 'https://youtube.com/c/MerphIPlaY',0.7,0.7);
+				case 2:
+					iconthingy = new Credit(80, 368, 'maxplayer', 'https://youtube.com/channel/UCfzQXW-LX5ACh7gLbQhPm0A',0.7,0.7);
+				case 3:
+					iconthingy = new Credit(80, 483, 'mastex', 'https://youtube.com/channel/UCmzvAu5XvjzHaSfueBNNhZw',0.7,0.7);
+				case 4:
+					iconthingy = new Credit(410, 138, 'hristofor', 'https://youtube.com/channel/UCrmmU6n4OZK_1fSB04ZJe3A',0.7,0.7);
+				case 5:
+					iconthingy = new Credit(410, 250, 'hopka', 'https://youtube.com/c/DennissGamerGD',0.7,0.7);
+				case 6:
+					iconthingy = new Credit(410, 358, 'goldus', 'https://www.youtube.com/channel/UCjTi9Hfl1Eb5Bgk5gksmsbA',0.7,0.7);
+				case 7:
+					iconthingy = new Credit(410, 463, 'sirox', 'https://youtube.com/channel/UCqp6FttWJlp67vHT8n-_uKw',0.7,0.7);
+				case 8:
+					iconthingy = new Credit(770, 138, 'dmitriy', 'https://www.youtube.com/channel/UCORiwPmR_vJoh-2fZzmSxQA',0.7,0.7);
+				case 9:
+					iconthingy = new Credit(770, 250, 'lenya', 'https://www.youtube.com/channel/UCMQ8ExqI_qKt8a6OrhHGkbQ',0.7,0.7);
+				case 10:
+					iconthingy = new Credit(770, 358, 'dyur', 'https://www.youtube.com/channel/UCmmGRPxK68JHviFAvAS4wkA',0.7,0.7);
+				case 11:
+					iconthingy = new Credit(785, 473, 'jaba', 'https://youtube.com/channel/UCyvHNTla33TPP5vX5e9FNPw',0.7,0.7);
+				case 12:
+					iconthingy = new Credit(815, 138, 'specialthanks', '',1,1);
+					iconthingy.screenCenter();
+					iconthingy.x += 1280 * 1;
 			}
+			iconthingy.antialiasing = true;
+			credits.add(iconthingy);
 		}
 
-		descText = new FlxText(50, 600, 1180, "", 32);
-		descText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		descText.scrollFactor.set();
-		descText.borderSize = 2.4;
-		add(descText);
+		
+		leftArrow = new FlxSprite(40 - 1280).loadGraphic(Paths.image('credits/leftbutton'));
+		leftArrow.updateHitbox();
+		leftArrow.antialiasing = true;
+		add(leftArrow);
 
-		bg.color = creditsStuff[curSelected][4];
-		intendedColor = bg.color;
-		changeSelection();
+		rightArrow = new FlxSprite(1163 + 1280).loadGraphic(Paths.image('credits/rightbutton'));
+		rightArrow.updateHitbox();
+		rightArrow.antialiasing = true;
+		add(rightArrow);
+		rightArrow.screenCenter(Y);
+		leftArrow.screenCenter(Y);
+
+		FlxTween.tween(leftArrow, {x: 20},1, {
+			ease: FlxEase.quadOut,
+			startDelay: 0.4,
+		});
+
+		FlxTween.tween(rightArrow, {x: 1183}, 1, {
+			ease: FlxEase.quadOut,
+			startDelay: 0.4,
+		});
+
+		for (i in 0...12) 
+		{
+			credits.members[i].x += 1280;
+		}
+
+		new FlxTimer().start(0.6, function(tmr:FlxTimer)
+			{
+				for (i in 0...4) {
+					FlxTween.tween(credits.members[i], {x: credits.members[i].x - FlxG.width}, 1, {
+						ease: FlxEase.cubeOut,
+						startDelay: 0.2,
+					});
+				}
+		
+				for (i in 4...8) {
+					FlxTween.tween(credits.members[i], {x: credits.members[i].x - FlxG.width}, 1, {
+						ease: FlxEase.cubeOut,
+						startDelay: 0.6,
+					});
+				}
+				for (i in 8...12) {
+					FlxTween.tween(credits.members[i], {x: credits.members[i].x - FlxG.width}, 1, {
+						ease: FlxEase.cubeOut,
+						startDelay: 1,
+						onComplete: function(twn:FlxTween) {
+							canmove = true;
+							FlxG.mouse.visible = true;
+						}
+					});
+				}
+			});
+
 		super.create();
 	}
 
 	override function update(elapsed:Float)
 	{
-		if (FlxG.sound.music.volume < 0.7)
-		{
-			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
-		}
-
-		var upP = controls.UI_UP_P;
-		var downP = controls.UI_DOWN_P;
-
-		if (upP)
-		{
-			changeSelection(-1);
-		}
-		if (downP)
-		{
-			changeSelection(1);
-		}
-
-		if (controls.BACK)
-		{
-			if(colorTween != null) {
-				colorTween.cancel();
-			}
-			FlxG.sound.play(Paths.sound('cancelMenu'));
-			MusicBeatState.switchState(new MainMenuState());
-		}
-		if(controls.ACCEPT) {
-			CoolUtil.browserLoad(creditsStuff[curSelected][3]);
-		}
 		super.update(elapsed);
+
+		if (canmove)
+			{
+				if (FlxG.mouse.overlaps(leftArrow))
+					leftArrow.scale.set(1.05,1.05);
+				else
+					leftArrow.scale.set(1,1);
+		
+				if (FlxG.mouse.overlaps(rightArrow))
+					rightArrow.scale.set(1.05,1.05);
+				else
+					rightArrow.scale.set(1,1);
+		
+				if (FlxG.mouse.justPressed)
+					{
+
+						if (FlxG.mouse.overlaps(leftArrow))
+						{
+							if (curSelected != 0)
+								{
+									leftArrow.x -= 10;
+									FlxTween.tween(leftArrow, {x: leftArrow.x + 10}, 0.4, {
+										ease: FlxEase.expoOut,
+									});
+									changeSelection(-1);
+									canmove =false;
+								}
+						}
+						if (FlxG.mouse.overlaps(rightArrow))
+						{
+							if (curSelected != 1)
+								{
+									canmove =false;
+									changeSelection(1);
+									rightArrow.x += 10;
+									FlxTween.tween(rightArrow, {x: rightArrow.x - 10}, 0.4, {
+										ease: FlxEase.expoOut,
+									});
+								}
+						}
+					}
+		
+				if (controls.BACK)
+					leave();
+		
+				for (i in credits) {
+					if (FlxG.mouse.overlaps(i) && !FlxG.mouse.overlaps(rightArrow) && !FlxG.mouse.overlaps(leftArrow) && i.name != 'specialthanks') {
+								i.scale.set(0.75, 0.75);
+								if (FlxG.mouse.justPressed) {
+									#if linux
+									Sys.command('/usr/bin/xdg-open', [i.link, "&"]);
+									#else
+									FlxG.openURL(i.link);
+									#end
+								}
+							}
+							else
+								{
+									if (i.name == 'specialthanks')
+										i.scale.set(1,1);
+									else
+										i.scale.set(0.7,0.7);
+								}
+					}
+		
+				if (controls.UI_LEFT_P)
+					{
+						if (curSelected != 0)
+							{
+								leftArrow.x -= 10;
+								FlxTween.tween(leftArrow, {x: leftArrow.x + 10}, 0.4, {
+									ease: FlxEase.expoOut,
+								});
+								changeSelection(-1);
+								canmove =false;
+							}
+					}
+		
+					if (controls.UI_RIGHT_P)
+					{
+						if (curSelected != 1)
+							{
+								canmove =false;
+								changeSelection(1);
+								rightArrow.x += 10;
+								FlxTween.tween(rightArrow, {x: rightArrow.x - 10}, 0.4, {
+									ease: FlxEase.expoOut,
+								});
+							}
+					}
+			}
+
 	}
 
 	function changeSelection(change:Int = 0)
 	{
 		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
-		do {
-			curSelected += change;
-			if (curSelected < 0)
-				curSelected = creditsStuff.length - 1;
-			if (curSelected >= creditsStuff.length)
-				curSelected = 0;
-		} while(unselectableCheck(curSelected));
 
-		var newColor:Int = creditsStuff[curSelected][4];
-		if(newColor != intendedColor) {
-			if(colorTween != null) {
-				colorTween.cancel();
+		curSelected += change;
+
+		if (curSelected == 2)
+			curSelected = 1;
+		if (curSelected == -1)
+			curSelected = 0;
+
+		if (change == -1)
+			{
+				credits.forEach(function(spr:FlxSprite)
+					{
+						FlxTween.tween(spr, {x: spr.x + 1280}, 1, {
+							ease: FlxEase.quadOut,
+							onComplete: function(twn:FlxTween) {
+								canmove = true;
+							}
+						});
+					});
 			}
-			intendedColor = newColor;
-			colorTween = FlxTween.color(bg, 1, bg.color, intendedColor, {
-				onComplete: function(twn:FlxTween) {
-					colorTween = null;
-				}
-			});
-		}
-
-		var bullShit:Int = 0;
-
-		for (item in grpOptions.members)
-		{
-			item.targetY = bullShit - curSelected;
-			bullShit++;
-
-			if(!unselectableCheck(bullShit-1)) {
-				item.alpha = 0.6;
-				if (item.targetY == 0) {
-					item.alpha = 1;
-				}
+		else
+			{
+				credits.forEach(function(spr:FlxSprite)
+					{
+						FlxTween.tween(spr, {x: spr.x - 1280}, 1, {
+							ease: FlxEase.quadOut,
+							onComplete: function(twn:FlxTween) {
+								canmove = true;
+							}
+						});
+					});
 			}
-		}
-		descText.text = creditsStuff[curSelected][2];
+
 	}
 
-	private function unselectableCheck(num:Int):Bool {
-		return creditsStuff[num].length <= 1;
+	function leave() {
+		FlxG.sound.play(Paths.sound('cancelMenu'));
+		credits.forEach(function(spr:FlxSprite)
+			{
+				FlxTween.tween(spr, {y: spr.y - 1280}, 1.4, {
+					ease: FlxEase.quadOut,
+				});
+			});
+			FlxTween.tween(leftArrow, {x: 20 - 1280},1.4, {
+				ease: FlxEase.quadOut,
+			});
+	
+			FlxTween.tween(rightArrow, {x: 1183 + 1280}, 1.4, {
+				ease: FlxEase.quadOut,
+			});
+
+			FlxTween.tween(upthing, {y: -1280}, 1.4, {
+				ease: FlxEase.quadOut,
+			});
+	
+			FlxTween.tween(downthing, {y: 1280}, 1.4, {
+				ease: FlxEase.quadOut,
+			});
+			new FlxTimer().start(1, function(tmr:FlxTimer)
+				{
+					FlxG.switchState(new MainMenuState());
+				});
+
+			FlxTween.tween(FlxG.camera, {zoom: 1.8}, 1.2);
+			FlxTween.tween(bg, {alpha: 0}, 0.9, {
+				ease: FlxEase.quadOut,
+			});
 	}
 }

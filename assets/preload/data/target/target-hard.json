@@ -1,7 +1,7 @@
 {
 	"song": {
 		"player1": "bf",
-		"player2": "gruntgun",
+		"sectionLengths": [],
 		"notes": [
 			{
 				"sectionNotes": [],
@@ -27,13 +27,13 @@
 				],
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"mustHitSection": true
+				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [],
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"mustHitSection": true
+				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [
@@ -51,26 +51,6 @@
 						5700,
 						3,
 						225
-					],
-					[
-						4800,
-						-1,
-						"Play Animation",
-						"shot",
-						"gruntgun"
-					],
-					[
-						4800,
-						7,
-						0,
-						"Bullet Note"
-					],
-					[
-						4875,
-						-1,
-						"Play Animation",
-						"dodge",
-						"bf"
 					]
 				],
 				"lengthInSteps": 16,
@@ -108,54 +88,82 @@
 				"sectionNotes": [
 					[
 						7800,
-						6,
+						2,
 						225
 					],
 					[
 						8100,
-						7,
+						3,
 						225
 					],
 					[
 						7650,
-						4,
+						0,
 						0
 					],
 					[
 						7200,
-						4,
+						0,
 						375
 					],
 					[
 						7725,
-						5,
+						1,
 						0
+					],
+					[
+						7200,
+						7,
+						0,
+						"Bullet Note"
 					]
 				],
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"mustHitSection": true
+				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [
 					[
 						9000,
-						7,
+						3,
 						225
 					],
 					[
 						9300,
-						6,
+						2,
 						225
 					],
 					[
 						8400,
-						4,
+						0,
 						225
 					],
 					[
 						8700,
-						6,
+						2,
+						225
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": false
+			},
+			{
+				"sectionNotes": [
+					[
+						9600,
+						0,
+						525
+					],
+					[
+						10200,
+						3,
+						225
+					],
+					[
+						10500,
+						2,
 						225
 					]
 				],
@@ -166,51 +174,29 @@
 			{
 				"sectionNotes": [
 					[
-						9600,
-						4,
-						525
-					],
-					[
-						10200,
-						7,
-						225
-					],
-					[
-						10500,
-						6,
-						225
-					]
-				],
-				"lengthInSteps": 16,
-				"typeOfSection": 0,
-				"mustHitSection": false
-			},
-			{
-				"sectionNotes": [
-					[
 						10800,
-						4,
+						0,
 						225
 					],
 					[
 						11100,
-						7,
+						3,
 						225
 					],
 					[
 						11400,
-						5,
+						1,
 						225
 					],
 					[
 						11700,
-						7,
+						3,
 						225
 					]
 				],
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"mustHitSection": false
+				"mustHitSection": true
 			},
 			{
 				"sectionNotes": [
@@ -238,6 +224,19 @@
 						12525,
 						2,
 						0
+					],
+					[
+						12000,
+						0,
+						0,
+						"Bullet Note"
+					],
+					[
+						13125,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"lengthInSteps": 16,
@@ -324,54 +323,82 @@
 				"sectionNotes": [
 					[
 						17400,
-						6,
+						2,
 						225
 					],
 					[
 						17700,
-						4,
+						0,
 						225
 					],
 					[
 						16800,
-						4,
+						0,
 						375
 					],
 					[
 						17250,
-						4,
+						0,
 						0
 					],
 					[
 						17325,
-						5,
+						1,
 						0
+					],
+					[
+						16800,
+						6,
+						0,
+						"Bullet Note"
 					]
 				],
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"mustHitSection": true
+				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [
 					[
 						18600,
-						6,
+						2,
 						225
 					],
 					[
 						18900,
-						4,
+						0,
 						225
 					],
 					[
 						18000,
-						4,
+						0,
 						225
 					],
 					[
 						18300,
-						5,
+						1,
+						225
+					]
+				],
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"mustHitSection": false
+			},
+			{
+				"sectionNotes": [
+					[
+						19200,
+						0,
+						525
+					],
+					[
+						19800,
+						3,
+						225
+					],
+					[
+						20100,
+						1,
 						225
 					]
 				],
@@ -382,51 +409,36 @@
 			{
 				"sectionNotes": [
 					[
-						19200,
-						4,
-						525
-					],
-					[
-						19800,
-						7,
-						225
-					],
-					[
-						20100,
-						5,
-						225
-					]
-				],
-				"lengthInSteps": 16,
-				"typeOfSection": 0,
-				"mustHitSection": false
-			},
-			{
-				"sectionNotes": [
-					[
 						20400,
-						4,
+						0,
 						225
 					],
 					[
 						20700,
-						7,
+						3,
 						225
 					],
 					[
 						21000,
-						4,
+						0,
 						225
 					],
 					[
 						21300,
-						5,
+						1,
 						225
+					],
+					[
+						21525,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"mustHitSection": false
+				"mustHitSection": true
 			},
 			{
 				"sectionNotes": [
@@ -454,6 +466,13 @@
 						22500,
 						0,
 						225
+					],
+					[
+						22500,
+						-1,
+						"Ready",
+						"",
+						""
 					]
 				],
 				"lengthInSteps": 16,
@@ -481,6 +500,20 @@
 						23700,
 						0,
 						225
+					],
+					[
+						22800,
+						-1,
+						"Set",
+						"",
+						""
+					],
+					[
+						23100,
+						-1,
+						"Go",
+						"",
+						""
 					]
 				],
 				"lengthInSteps": 16,
@@ -523,6 +556,12 @@
 						25050,
 						3,
 						0
+					],
+					[
+						24000,
+						5,
+						0,
+						"Bullet Note"
 					]
 				],
 				"lengthInSteps": 16,
@@ -533,137 +572,144 @@
 				"sectionNotes": [
 					[
 						25425,
-						4,
+						0,
 						0
 					],
 					[
 						25200,
-						4,
+						0,
 						150
 					],
 					[
 						25500,
-						7,
+						3,
 						0
 					],
 					[
 						25650,
-						5,
+						1,
 						0
 					],
 					[
 						25800,
-						4,
+						0,
 						0
 					],
 					[
 						25950,
-						7,
+						3,
 						0
 					],
 					[
 						26100,
-						5,
+						1,
 						0
 					],
 					[
 						26250,
-						7,
+						3,
 						0
 					]
 				],
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"mustHitSection": true
+				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [
 					[
 						26400,
-						6,
+						2,
 						225
 					],
 					[
 						26700,
-						7,
+						3,
 						0
 					],
 					[
 						26850,
-						6,
+						2,
 						0
 					],
 					[
 						27000,
-						4,
+						0,
 						0
 					],
 					[
 						27150,
-						7,
+						3,
 						0
 					],
 					[
 						27300,
-						6,
+						2,
 						0
 					],
 					[
 						27450,
-						5,
+						1,
 						0
 					]
 				],
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"mustHitSection": true
+				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [
 					[
 						27600,
-						4,
+						0,
 						150
 					],
 					[
 						27825,
-						7,
+						3,
 						0
 					],
 					[
 						27900,
-						4,
+						0,
 						0
 					],
 					[
 						28050,
-						5,
+						1,
 						0
 					],
 					[
 						28200,
-						6,
+						2,
 						0
 					],
 					[
 						28350,
-						5,
+						1,
 						0
 					],
 					[
 						28500,
-						7,
+						3,
 						0
 					],
 					[
 						28650,
-						4,
+						0,
 						0
+					],
+					[
+						28200,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"mustHitSection": true
+				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [
@@ -701,6 +747,12 @@
 						29850,
 						1,
 						0
+					],
+					[
+						28800,
+						3,
+						0,
+						"Bullet Note"
 					]
 				],
 				"lengthInSteps": 16,
@@ -849,6 +901,13 @@
 						32850,
 						3,
 						0
+					],
+					[
+						33000,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"altAnimNum": 0,
@@ -862,49 +921,55 @@
 				"sectionNotes": [
 					[
 						33600,
-						6,
+						2,
 						0
 					],
 					[
 						33750,
-						5,
+						1,
 						0
 					],
 					[
 						33900,
-						7,
+						3,
 						0
 					],
 					[
 						34050,
-						6,
+						2,
 						0
 					],
 					[
 						34200,
-						5,
+						1,
 						0
 					],
 					[
 						34350,
-						7,
+						3,
 						0
 					],
 					[
 						34500,
-						6,
+						2,
 						0
 					],
 					[
 						34650,
-						5,
+						1,
 						0
+					],
+					[
+						33600,
+						4,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 100
 			},
@@ -914,42 +979,42 @@
 				"sectionNotes": [
 					[
 						34800,
-						5,
+						1,
 						0
 					],
 					[
 						34950,
-						6,
+						2,
 						0
 					],
 					[
 						35100,
-						7,
+						3,
 						0
 					],
 					[
 						35250,
-						5,
+						1,
 						0
 					],
 					[
 						35400,
-						6,
+						2,
 						0
 					],
 					[
 						35550,
-						7,
+						3,
 						0
 					],
 					[
 						35700,
-						5,
+						1,
 						0
 					],
 					[
 						35850,
-						6,
+						2,
 						0
 					]
 				],
@@ -957,7 +1022,7 @@
 				"altAnim": false,
 				"bpm": 200,
 				"changeBPM": false,
-				"mustHitSection": true
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
@@ -965,50 +1030,56 @@
 				"sectionNotes": [
 					[
 						36000,
-						6,
+						2,
 						0
 					],
 					[
 						36150,
-						5,
+						1,
 						0
 					],
 					[
 						36300,
-						4,
+						0,
 						0
 					],
 					[
 						36450,
-						6,
+						2,
 						0
 					],
 					[
 						36600,
-						5,
+						1,
 						0
 					],
 					[
 						36750,
-						4,
+						0,
 						0
 					],
 					[
 						36900,
-						6,
+						2,
 						0
 					],
 					[
 						37050,
-						5,
+						1,
 						0
+					],
+					[
+						36000,
+						7,
+						0,
+						"Bullet Note"
 					]
 				],
 				"altAnimNum": 0,
 				"altAnim": false,
 				"bpm": 200,
 				"changeBPM": false,
-				"mustHitSection": true
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
@@ -1016,50 +1087,57 @@
 				"sectionNotes": [
 					[
 						37200,
-						6,
+						2,
 						0
 					],
 					[
 						37350,
-						4,
+						0,
 						0
 					],
 					[
 						37500,
-						7,
+						3,
 						0
 					],
 					[
 						37650,
-						6,
+						2,
 						0
 					],
 					[
 						37800,
-						4,
+						0,
 						0
 					],
 					[
 						37950,
-						7,
+						3,
 						0
 					],
 					[
 						38100,
-						6,
+						2,
 						0
 					],
 					[
 						38250,
-						4,
+						0,
 						0
+					],
+					[
+						37800,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"altAnimNum": 0,
 				"altAnim": false,
 				"bpm": 200,
 				"changeBPM": false,
-				"mustHitSection": true
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
@@ -1104,6 +1182,12 @@
 						39450,
 						1,
 						0
+					],
+					[
+						38400,
+						0,
+						0,
+						"Bullet Note"
 					]
 				],
 				"altAnimNum": 0,
@@ -1206,6 +1290,12 @@
 						41850,
 						1,
 						0
+					],
+					[
+						40800,
+						3,
+						0,
+						"Bullet Note"
 					]
 				],
 				"altAnimNum": 0,
@@ -1257,6 +1347,13 @@
 						43050,
 						0,
 						0
+					],
+					[
+						42600,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"altAnimNum": 0,
@@ -1271,45 +1368,57 @@
 				"sectionNotes": [
 					[
 						43200,
-						4,
+						0,
 						225
 					],
 					[
 						43500,
-						7,
+						3,
 						0
 					],
 					[
 						43650,
-						4,
+						0,
 						0
 					],
 					[
 						43800,
-						5,
+						1,
 						0
 					],
 					[
 						43950,
-						6,
+						2,
 						0
 					],
 					[
 						44100,
-						5,
+						1,
 						0
 					],
 					[
 						44250,
-						4,
+						0,
 						0
+					],
+					[
+						43200,
+						6,
+						0,
+						"Bullet Note"
+					],
+					[
+						43800,
+						5,
+						0,
+						"Bullet Note"
 					]
 				],
 				"altAnimNum": 0,
 				"altAnim": false,
 				"bpm": 200,
 				"changeBPM": false,
-				"mustHitSection": true
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
@@ -1317,50 +1426,56 @@
 				"sectionNotes": [
 					[
 						44400,
-						4,
+						0,
 						75
 					],
 					[
 						44700,
-						6,
+						2,
 						75
 					],
 					[
 						44850,
-						4,
+						0,
 						75
 					],
 					[
 						44550,
-						5,
+						1,
 						75
 					],
 					[
 						45000,
-						6,
+						2,
 						75
 					],
 					[
 						45150,
-						5,
+						1,
 						75
 					],
 					[
 						45300,
-						7,
+						3,
 						75
 					],
 					[
 						45450,
-						5,
+						1,
 						75
+					],
+					[
+						44400,
+						7,
+						0,
+						"Bullet Note"
 					]
 				],
 				"altAnimNum": 0,
 				"altAnim": false,
 				"bpm": 200,
 				"changeBPM": false,
-				"mustHitSection": true
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
@@ -1368,94 +1483,113 @@
 				"sectionNotes": [
 					[
 						45600,
-						7,
+						3,
 						225
 					],
 					[
 						45900,
-						4,
+						0,
 						0
 					],
 					[
 						46050,
-						7,
+						3,
 						0
 					],
 					[
 						46200,
-						4,
+						0,
 						0
 					],
 					[
 						46350,
-						6,
+						2,
 						0
 					],
 					[
 						46500,
-						5,
+						1,
 						0
 					],
 					[
 						46650,
-						6,
+						2,
 						0
+					],
+					[
+						45600,
+						5,
+						0,
+						"Bullet Note"
 					]
 				],
 				"altAnimNum": 0,
 				"altAnim": false,
 				"bpm": 200,
 				"changeBPM": false,
-				"mustHitSection": true
+				"mustHitSection": false
 			},
 			{
 				"altAnimNum": 0,
 				"sectionNotes": [
 					[
 						46800,
-						4,
+						0,
 						75
 					],
 					[
 						46950,
-						5,
+						1,
 						75
 					],
 					[
 						47100,
-						6,
+						2,
 						75
 					],
 					[
 						47250,
-						7,
+						3,
 						75
 					],
 					[
 						47400,
-						6,
+						2,
 						75
 					],
 					[
 						47550,
-						5,
+						1,
 						75
 					],
 					[
 						47700,
-						4,
+						0,
 						75
 					],
 					[
 						47850,
-						5,
+						1,
 						75
+					],
+					[
+						46800,
+						7,
+						0,
+						"Bullet Note"
+					],
+					[
+						47400,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -1496,6 +1630,18 @@
 						49050,
 						0,
 						0
+					],
+					[
+						48000,
+						0,
+						0,
+						"Bullet Note"
+					],
+					[
+						48600,
+						0,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -1557,6 +1703,12 @@
 						49575,
 						2,
 						0
+					],
+					[
+						49200,
+						3,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -1603,6 +1755,12 @@
 						51450,
 						2,
 						0
+					],
+					[
+						50400,
+						0,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -1659,6 +1817,19 @@
 						51780,
 						1,
 						0
+					],
+					[
+						51600,
+						0,
+						0,
+						"Bullet Note"
+					],
+					[
+						52200,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"typeOfSection": 0,
@@ -1673,49 +1844,55 @@
 				"sectionNotes": [
 					[
 						52800,
-						5,
+						1,
 						0
 					],
 					[
 						52950,
-						4,
+						0,
 						0
 					],
 					[
 						53100,
-						6,
+						2,
 						0
 					],
 					[
 						53250,
-						4,
+						0,
 						0
 					],
 					[
 						53400,
-						4,
+						0,
 						0
 					],
 					[
 						53550,
-						5,
+						1,
 						0
 					],
 					[
 						53700,
-						6,
+						2,
 						0
 					],
 					[
 						53850,
-						7,
+						3,
 						0
+					],
+					[
+						52800,
+						6,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -1724,49 +1901,49 @@
 				"sectionNotes": [
 					[
 						54000,
-						6,
+						2,
 						0
 					],
 					[
 						54150,
-						7,
+						3,
 						0
 					],
 					[
 						54300,
-						5,
+						1,
 						0
 					],
 					[
 						54450,
-						7,
+						3,
 						0
 					],
 					[
 						54600,
-						6,
+						2,
 						0
 					],
 					[
 						54750,
-						5,
+						1,
 						0
 					],
 					[
 						54900,
-						6,
+						2,
 						0
 					],
 					[
 						55050,
-						7,
+						3,
 						0
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -1775,49 +1952,55 @@
 				"sectionNotes": [
 					[
 						55200,
-						5,
+						1,
 						0
 					],
 					[
 						55350,
-						4,
+						0,
 						0
 					],
 					[
 						55500,
-						7,
+						3,
 						0
 					],
 					[
 						55650,
-						4,
+						0,
 						0
 					],
 					[
 						55800,
-						4,
+						0,
 						0
 					],
 					[
 						55950,
-						5,
+						1,
 						0
 					],
 					[
 						56100,
-						7,
+						3,
 						0
 					],
 					[
 						56250,
-						4,
+						0,
 						0
+					],
+					[
+						55200,
+						4,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -1826,49 +2009,61 @@
 				"sectionNotes": [
 					[
 						56400,
-						6,
+						2,
 						0
 					],
 					[
 						56550,
-						7,
+						3,
 						0
 					],
 					[
 						56700,
-						4,
+						0,
 						0
 					],
 					[
 						56850,
-						7,
+						3,
 						0
 					],
 					[
 						57000,
-						6,
+						2,
 						0
 					],
 					[
 						57150,
-						4,
+						0,
 						0
 					],
 					[
 						57300,
-						6,
+						2,
 						0
 					],
 					[
 						57450,
-						5,
+						1,
 						0
+					],
+					[
+						56400,
+						5,
+						0,
+						"Bullet Note"
+					],
+					[
+						57000,
+						6,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -1914,6 +2109,19 @@
 						58200,
 						2,
 						0
+					],
+					[
+						57600,
+						3,
+						0,
+						"Bullet Note"
+					],
+					[
+						58200,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"typeOfSection": 0,
@@ -2016,6 +2224,12 @@
 						60600,
 						2,
 						0
+					],
+					[
+						60000,
+						2,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -2067,6 +2281,18 @@
 						62250,
 						0,
 						0
+					],
+					[
+						61200,
+						0,
+						0,
+						"Bullet Note"
+					],
+					[
+						61800,
+						0,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -2081,34 +2307,47 @@
 				"sectionNotes": [
 					[
 						62400,
-						5,
+						1,
 						525
 					],
 					[
 						63000,
-						4,
+						0,
 						225
 					],
 					[
 						63300,
-						6,
+						2,
 						75
 					],
 					[
 						63450,
-						7,
+						3,
 						0
 					],
 					[
 						63525,
-						7,
+						3,
 						0
+					],
+					[
+						62400,
+						7,
+						0,
+						"Bullet Note"
+					],
+					[
+						63525,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -2117,39 +2356,39 @@
 				"sectionNotes": [
 					[
 						63900,
-						7,
+						3,
 						225
 					],
 					[
 						64200,
-						6,
+						2,
 						225
 					],
 					[
 						64575,
-						4,
+						0,
 						0
 					],
 					[
 						64500,
-						5,
+						1,
 						0
 					],
 					[
 						64650,
-						5,
+						1,
 						0
 					],
 					[
 						64725,
-						6,
+						2,
 						0
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -2158,34 +2397,40 @@
 				"sectionNotes": [
 					[
 						65850,
-						6,
+						2,
 						0
 					],
 					[
 						65925,
-						7,
+						3,
 						0
 					],
 					[
 						65400,
-						7,
+						3,
 						225
 					],
 					[
 						64800,
-						4,
+						0,
 						525
 					],
 					[
 						65700,
-						5,
+						1,
 						0
+					],
+					[
+						64800,
+						6,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -2194,39 +2439,39 @@
 				"sectionNotes": [
 					[
 						66300,
-						5,
+						1,
 						225
 					],
 					[
 						66600,
-						6,
+						2,
 						225
 					],
 					[
 						66900,
-						4,
+						0,
 						0
 					],
 					[
 						66975,
-						6,
+						2,
 						0
 					],
 					[
 						67050,
-						7,
+						3,
 						0
 					],
 					[
 						67125,
-						4,
+						0,
 						0
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -2257,6 +2502,12 @@
 						67200,
 						0,
 						525
+					],
+					[
+						67200,
+						3,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -2298,6 +2549,13 @@
 						69300,
 						1,
 						0
+					],
+					[
+						69000,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"typeOfSection": 0,
@@ -2334,6 +2592,12 @@
 						69600,
 						3,
 						525
+					],
+					[
+						69600,
+						0,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -2421,6 +2685,12 @@
 						72225,
 						5,
 						0
+					],
+					[
+						72000,
+						0,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -2435,44 +2705,50 @@
 				"sectionNotes": [
 					[
 						73500,
-						3,
+						7,
 						0
 					],
 					[
 						73650,
-						0,
+						4,
 						0
 					],
 					[
 						73800,
-						3,
+						7,
 						0
 					],
 					[
 						73950,
-						0,
+						4,
 						0
 					],
 					[
 						73350,
-						6,
+						2,
 						0
 					],
 					[
 						73425,
-						6,
+						2,
 						0
 					],
 					[
 						73200,
-						6,
+						2,
 						75
+					],
+					[
+						73200,
+						7,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -2513,6 +2789,12 @@
 						74400,
 						7,
 						75
+					],
+					[
+						74400,
+						2,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -2527,49 +2809,62 @@
 				"sectionNotes": [
 					[
 						75600,
-						7,
+						3,
 						0
 					],
 					[
 						75750,
-						6,
+						2,
 						0
 					],
 					[
 						75900,
-						4,
+						0,
 						0
 					],
 					[
 						76050,
-						5,
+						1,
 						0
 					],
 					[
 						76200,
-						6,
+						2,
 						0
 					],
 					[
 						76350,
-						7,
+						3,
 						0
 					],
 					[
 						76500,
-						5,
+						1,
 						0
 					],
 					[
 						76650,
-						4,
+						0,
 						0
+					],
+					[
+						75600,
+						5,
+						0,
+						"Bullet Note"
+					],
+					[
+						76200,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -2610,6 +2905,12 @@
 						77025,
 						6,
 						0
+					],
+					[
+						76800,
+						0,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -2624,44 +2925,50 @@
 				"sectionNotes": [
 					[
 						78000,
-						6,
+						2,
 						75
 					],
 					[
 						78150,
-						5,
-						0
-					],
-					[
-						78225,
-						4,
-						0
-					],
-					[
-						78300,
 						1,
 						0
 					],
 					[
-						78450,
+						78225,
 						0,
 						0
 					],
 					[
+						78300,
+						5,
+						0
+					],
+					[
+						78450,
+						4,
+						0
+					],
+					[
 						78600,
-						3,
+						7,
 						0
 					],
 					[
 						78750,
-						2,
+						6,
 						0
+					],
+					[
+						78000,
+						7,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -2702,6 +3009,12 @@
 						79950,
 						0,
 						0
+					],
+					[
+						79200,
+						1,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -2716,49 +3029,62 @@
 				"sectionNotes": [
 					[
 						80400,
-						4,
+						0,
 						0
 					],
 					[
 						80550,
-						7,
+						3,
 						0
 					],
 					[
 						80700,
-						4,
+						0,
 						0
 					],
 					[
 						80850,
-						7,
+						3,
 						0
 					],
 					[
 						81000,
-						5,
+						1,
 						0
 					],
 					[
 						81150,
-						6,
+						2,
 						0
 					],
 					[
 						81300,
-						5,
+						1,
 						0
 					],
 					[
 						81450,
-						6,
+						2,
 						0
+					],
+					[
+						80400,
+						7,
+						0,
+						"Bullet Note"
+					],
+					[
+						81000,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -2814,6 +3140,12 @@
 						82650,
 						0,
 						0
+					],
+					[
+						81600,
+						2,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -2875,6 +3207,13 @@
 						83400,
 						5,
 						525
+					],
+					[
+						83550,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"typeOfSection": 0,
@@ -2889,59 +3228,59 @@
 				"sectionNotes": [
 					[
 						84000,
-						1,
+						5,
 						0
 					],
 					[
 						84150,
-						2,
+						6,
 						0
 					],
 					[
 						84300,
-						0,
+						4,
 						0
 					],
 					[
 						84450,
-						2,
+						6,
 						0
 					],
 					[
 						84600,
-						1,
+						5,
 						0
 					],
 					[
 						84750,
-						2,
+						6,
 						0
 					],
 					[
 						84900,
-						0,
+						4,
 						0
 					],
 					[
 						85050,
-						2,
+						6,
 						0
 					],
 					[
 						84000,
-						5,
+						1,
 						525
 					],
 					[
 						84600,
-						5,
+						1,
 						525
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -2950,59 +3289,59 @@
 				"sectionNotes": [
 					[
 						85200,
-						0,
+						4,
 						0
 					],
 					[
 						85350,
-						1,
+						5,
 						0
 					],
 					[
 						85500,
-						0,
+						4,
 						0
 					],
 					[
 						85650,
-						2,
+						6,
 						0
-					],
-					[
-						85800,
-						1,
-						0
-					],
-					[
-						85950,
-						0,
-						0
-					],
-					[
-						86100,
-						2,
-						0
-					],
-					[
-						86250,
-						3,
-						0
-					],
-					[
-						85200,
-						4,
-						525
 					],
 					[
 						85800,
 						5,
+						0
+					],
+					[
+						85950,
+						4,
+						0
+					],
+					[
+						86100,
+						6,
+						0
+					],
+					[
+						86250,
+						7,
+						0
+					],
+					[
+						85200,
+						0,
+						525
+					],
+					[
+						85800,
+						1,
 						525
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -3058,6 +3397,12 @@
 						87000,
 						6,
 						525
+					],
+					[
+						86400,
+						3,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -3119,6 +3464,13 @@
 						88200,
 						5,
 						525
+					],
+					[
+						88200,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"typeOfSection": 0,
@@ -3133,59 +3485,59 @@
 				"sectionNotes": [
 					[
 						88800,
-						0,
+						4,
 						0
 					],
 					[
 						88950,
-						1,
+						5,
 						0
 					],
 					[
 						89100,
-						2,
+						6,
 						0
 					],
 					[
 						89250,
-						3,
+						7,
 						0
 					],
 					[
 						89400,
-						0,
+						4,
 						0
 					],
 					[
 						89550,
-						1,
+						5,
 						0
 					],
 					[
 						89700,
-						2,
+						6,
 						0
 					],
 					[
 						88800,
-						4,
+						0,
 						525
 					],
 					[
 						89400,
-						7,
+						3,
 						525
 					],
 					[
 						89850,
-						0,
+						4,
 						0
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -3194,59 +3546,59 @@
 				"sectionNotes": [
 					[
 						90000,
-						3,
+						7,
 						0
 					],
 					[
 						90150,
-						2,
+						6,
 						0
 					],
 					[
 						90300,
-						1,
+						5,
 						0
 					],
 					[
 						90450,
-						0,
+						4,
 						0
 					],
 					[
 						90600,
-						3,
+						7,
 						0
 					],
 					[
 						90750,
-						2,
+						6,
 						0
 					],
 					[
 						90900,
-						1,
+						5,
 						0
 					],
 					[
 						91050,
-						0,
+						4,
 						0
 					],
 					[
 						90000,
-						7,
+						3,
 						525
 					],
 					[
 						90600,
-						4,
+						0,
 						525
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -3302,6 +3654,12 @@
 						91200,
 						2,
 						0
+					],
+					[
+						91200,
+						1,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -3363,6 +3721,19 @@
 						93450,
 						7,
 						0
+					],
+					[
+						92400,
+						3,
+						0,
+						"Bullet Note"
+					],
+					[
+						93000,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"typeOfSection": 0,
@@ -3424,6 +3795,12 @@
 						94200,
 						2,
 						0
+					],
+					[
+						93600,
+						3,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -3485,6 +3862,12 @@
 						95400,
 						1,
 						0
+					],
+					[
+						94800,
+						0,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -3497,6 +3880,46 @@
 			{
 				"altAnimNum": 0,
 				"sectionNotes": [
+					[
+						96000,
+						0,
+						0
+					],
+					[
+						96150,
+						3,
+						0
+					],
+					[
+						96300,
+						0,
+						0
+					],
+					[
+						96450,
+						3,
+						0
+					],
+					[
+						96600,
+						1,
+						0
+					],
+					[
+						96750,
+						2,
+						0
+					],
+					[
+						96900,
+						1,
+						0
+					],
+					[
+						97050,
+						2,
+						0
+					],
 					[
 						96000,
 						4,
@@ -3539,49 +3962,15 @@
 					],
 					[
 						96000,
+						6,
 						0,
-						0
-					],
-					[
-						96150,
-						3,
-						0
-					],
-					[
-						96300,
-						0,
-						0
-					],
-					[
-						96450,
-						3,
-						0
-					],
-					[
-						96600,
-						1,
-						0
-					],
-					[
-						96750,
-						2,
-						0
-					],
-					[
-						96900,
-						1,
-						0
-					],
-					[
-						97050,
-						2,
-						0
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -3590,31 +3979,21 @@
 				"sectionNotes": [
 					[
 						97200,
-						3,
+						7,
 						0
 					],
 					[
 						97350,
-						1,
+						5,
 						0
 					],
 					[
 						97200,
-						7,
-						0
-					],
-					[
-						97350,
-						5,
-						0
-					],
-					[
-						97500,
 						3,
 						0
 					],
 					[
-						97650,
+						97350,
 						1,
 						0
 					],
@@ -3629,18 +4008,13 @@
 						0
 					],
 					[
-						97800,
-						4,
+						97500,
+						3,
 						0
 					],
 					[
-						97950,
-						6,
-						0
-					],
-					[
-						98100,
-						4,
+						97650,
+						1,
 						0
 					],
 					[
@@ -3659,26 +4033,88 @@
 						0
 					],
 					[
-						98250,
-						2,
+						97800,
+						4,
+						0
+					],
+					[
+						97950,
+						6,
+						0
+					],
+					[
+						98100,
+						4,
 						0
 					],
 					[
 						98250,
 						6,
 						0
+					],
+					[
+						98250,
+						2,
+						0
+					],
+					[
+						97800,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
 			{
 				"altAnimNum": 0,
 				"sectionNotes": [
+					[
+						98400,
+						7,
+						0
+					],
+					[
+						98550,
+						5,
+						0
+					],
+					[
+						98700,
+						4,
+						0
+					],
+					[
+						98850,
+						5,
+						0
+					],
+					[
+						99000,
+						7,
+						0
+					],
+					[
+						99150,
+						5,
+						0
+					],
+					[
+						99300,
+						4,
+						0
+					],
+					[
+						99450,
+						5,
+						0
+					],
 					[
 						98400,
 						3,
@@ -3721,49 +4157,15 @@
 					],
 					[
 						98400,
-						7,
-						0
-					],
-					[
-						98550,
-						5,
-						0
-					],
-					[
-						98700,
 						4,
-						0
-					],
-					[
-						98850,
-						5,
-						0
-					],
-					[
-						99000,
-						7,
-						0
-					],
-					[
-						99150,
-						5,
-						0
-					],
-					[
-						99300,
-						4,
-						0
-					],
-					[
-						99450,
-						5,
-						0
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -3772,89 +4174,96 @@
 				"sectionNotes": [
 					[
 						99600,
-						7,
+						3,
 						0
 					],
 					[
 						99750,
-						5,
+						1,
 						0
 					],
 					[
 						99900,
-						7,
+						3,
 						0
 					],
 					[
 						100050,
-						5,
+						1,
 						0
 					],
 					[
 						100200,
-						6,
+						2,
 						0
 					],
 					[
 						100350,
-						5,
+						1,
 						0
 					],
 					[
 						100500,
-						6,
+						2,
 						0
 					],
 					[
 						100650,
-						5,
+						1,
 						0
 					],
 					[
 						99600,
-						3,
+						7,
 						0
 					],
 					[
 						99750,
-						1,
+						5,
 						0
 					],
 					[
 						99900,
-						3,
+						7,
 						0
 					],
 					[
 						100050,
-						1,
+						5,
 						0
 					],
 					[
 						100200,
-						2,
+						6,
 						0
 					],
 					[
 						100350,
-						1,
+						5,
 						0
 					],
 					[
 						100500,
-						2,
+						6,
 						0
 					],
 					[
 						100650,
-						1,
+						5,
 						0
+					],
+					[
+						100200,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -3910,6 +4319,12 @@
 						101400,
 						6,
 						0
+					],
+					[
+						100800,
+						0,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -3971,6 +4386,12 @@
 						102600,
 						5,
 						0
+					],
+					[
+						102000,
+						3,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -4032,6 +4453,12 @@
 						103800,
 						6,
 						0
+					],
+					[
+						103200,
+						1,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -4093,6 +4520,12 @@
 						105450,
 						1,
 						0
+					],
+					[
+						104400,
+						1,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -4149,6 +4582,12 @@
 						106050,
 						1,
 						0
+					],
+					[
+						105600,
+						0,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -4205,6 +4644,12 @@
 						107850,
 						0,
 						0
+					],
+					[
+						106800,
+						2,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -4219,95 +4664,121 @@
 				"sectionNotes": [
 					[
 						108000,
-						5,
+						1,
 						0
 					],
 					[
 						108075,
-						5,
+						1,
 						0
 					],
 					[
 						108150,
-						4,
-						0
-					],
-					[
-						108225,
-						4,
-						0
-					],
-					[
-						108300,
-						7,
-						225
-					],
-					[
-						108600,
-						4,
-						525
-					],
-					[
-						108000,
-						1,
-						0
-					],
-					[
-						108450,
-						1,
-						0
-					],
-					[
-						108600,
 						0,
 						0
 					],
 					[
-						108750,
-						1,
-						0
-					],
-					[
-						108900,
-						3,
-						0
-					],
-					[
-						109050,
-						2,
+						108225,
+						0,
 						0
 					],
 					[
 						108300,
-						1,
+						3,
+						225
+					],
+					[
+						108600,
+						0,
+						525
+					],
+					[
+						108000,
+						5,
+						0
+					],
+					[
+						108450,
+						5,
+						0
+					],
+					[
+						108600,
+						4,
+						0
+					],
+					[
+						108750,
+						5,
+						0
+					],
+					[
+						108900,
+						7,
+						0
+					],
+					[
+						109050,
+						6,
+						0
+					],
+					[
+						108300,
+						5,
 						0
 					],
 					[
 						108225,
-						2,
+						6,
 						0
 					],
 					[
 						108075,
-						2,
+						6,
 						0
 					],
 					[
 						108150,
-						3,
+						7,
 						0
+					],
+					[
+						108000,
+						7,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
 			{
 				"altAnimNum": 0,
 				"sectionNotes": [
+					[
+						109200,
+						3,
+						225
+					],
+					[
+						109500,
+						2,
+						225
+					],
+					[
+						109800,
+						1,
+						225
+					],
+					[
+						110100,
+						0,
+						225
+					],
 					[
 						109200,
 						7,
@@ -4330,29 +4801,22 @@
 					],
 					[
 						109200,
-						3,
-						225
-					],
-					[
-						109500,
-						2,
-						225
+						4,
+						0,
+						"Bullet Note"
 					],
 					[
 						109800,
-						1,
-						225
-					],
-					[
-						110100,
-						0,
-						225
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -4361,24 +4825,30 @@
 				"sectionNotes": [
 					[
 						110400,
-						4,
+						0,
 						525
 					],
 					[
 						111000,
-						5,
+						1,
 						225
 					],
 					[
 						111300,
-						6,
+						2,
 						225
+					],
+					[
+						110400,
+						7,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -4387,29 +4857,29 @@
 				"sectionNotes": [
 					[
 						111600,
-						4,
+						0,
 						225
 					],
 					[
 						111900,
-						6,
+						2,
 						225
 					],
 					[
 						112200,
-						5,
+						1,
 						225
 					],
 					[
 						112500,
-						7,
+						3,
 						225
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -4418,34 +4888,47 @@
 				"sectionNotes": [
 					[
 						112800,
-						4,
+						0,
 						375
 					],
 					[
 						113400,
-						6,
+						2,
 						225
 					],
 					[
 						113700,
-						5,
+						1,
 						225
 					],
 					[
 						113325,
-						5,
+						1,
 						0
 					],
 					[
 						113250,
-						4,
+						0,
 						0
+					],
+					[
+						112800,
+						4,
+						0,
+						"Bullet Note"
+					],
+					[
+						113400,
+						-1,
+						"Play Animation",
+						"recharge",
+						"gruntgun"
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -4454,29 +4937,29 @@
 				"sectionNotes": [
 					[
 						114000,
-						5,
+						1,
 						225
 					],
 					[
 						114300,
-						6,
+						2,
 						225
 					],
 					[
 						114600,
-						4,
+						0,
 						225
 					],
 					[
 						114900,
-						7,
+						3,
 						225
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 200
 			},
@@ -4497,6 +4980,12 @@
 						116100,
 						2,
 						225
+					],
+					[
+						115200,
+						3,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -4571,6 +5060,12 @@
 						"Play Animation",
 						"recharge",
 						"gruntgun"
+					],
+					[
+						117600,
+						3,
+						0,
+						"Bullet Note"
 					]
 				],
 				"typeOfSection": 0,
@@ -4614,28 +5109,7 @@
 			{
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"sectionNotes": [
-					[
-						120000,
-						1,
-						0,
-						"Bullet Note"
-					],
-					[
-						120000,
-						-1,
-						"Play Animation",
-						"shot",
-						"gruntgun"
-					],
-					[
-						120075,
-						-1,
-						"Play Animation",
-						"dodge",
-						"bf"
-					]
-				],
+				"sectionNotes": [],
 				"altAnimNum": 0,
 				"altAnim": false,
 				"bpm": 200,
@@ -4924,39 +5398,84 @@
 			},
 			{
 				"lengthInSteps": 16,
-				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"altAnim": false,
 				"bpm": 200,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
 				"lengthInSteps": 16,
-				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"altAnim": false,
 				"bpm": 200,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
 				"lengthInSteps": 16,
-				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"altAnim": false,
 				"bpm": 200,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
 				"lengthInSteps": 16,
-				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"altAnim": false,
 				"bpm": 200,
 				"changeBPM": false,
 				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"bpm": 200,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"bpm": 200,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"bpm": 200,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"bpm": 200,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
 			},
 			{
 				"lengthInSteps": 16,
@@ -4995,20 +5514,14 @@
 				"mustHitSection": true
 			}
 		],
-		"isHey": true,
-		"player3": "gf-tricky",
-		"cutsceneType": "none",
+		"player2": "gruntgun",
+		"player3": "gf",
 		"song": "Target",
-		"isSpooky": true,
+		"needsVoices": true,
 		"validScore": true,
-		"speed": 2.90000000000002,
-		"isMoody": true,
-		"sectionLengths": [],
-		"uiType": "hard",
 		"stage": "gruntstage",
 		"sections": 0,
-		"needsVoices": true,
 		"bpm": 200,
-		"gf": "gftricky"
+		"speed": 2.9
 	}
 }

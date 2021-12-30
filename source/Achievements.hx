@@ -10,44 +10,55 @@ import flixel.text.FlxText;
 using StringTools;
 
 class Achievements {
-	public static var achievementsStuff:Array<Dynamic> = [ //Name, Description, Hidden achievement
-		["Freaky on a Friday Night",	"Play on a Friday... Night.",								true],
-		["Real Madness",				"Beat Tutorial in story mode without misses.(On Hard)",		false],
-		["Grunt so crazy",				"Beat Week 1 in story mode without misses.(On Hard)",		false],
-		["Helltaburet",					"Beat Helltaburet in freeplay.",							false],
-		["Thats Impossible",			"Beat Helltaburet in freeplay without misses.(On Hard)",	false],
-		["Taburgation",					"Beat Taburgation in freeplay.",							false],
-		["Realy Impossible",			"Beat Taburgation in freeplay without misses.(On Hard)",	false],
+	public static var achievementsStuff:Array<Dynamic> = [
+		["Madness Night Funkin",		"Play in the best mod.",							'mnf',					 true],
+		["Real Madness",				"Beat Tutorial in story mode.",						'week1',				false],
+		["Grunt so crazy",				"Beat Week 1 in story mode.",						'week2',				false],
+		["Best duel",					"Beat Week 2 in story mode.",						'week3',				false],
+		["Glitched",					"Beat Bonus Week 1 in story mode.",					'week4',				false],
+		["Helltaburet",					"Beat Helltaburet.",								'helltaburet',			false],
+		["Thats Impossible",			"Beat Helltaburet without misses.",					'ihelltaburet',			false],
+		["Taburgation",					"Beat Taburgation.",								'taburgation',			false],
+		["Realy Impossible",			"Beat Taburgation without misses.",					'itaburgation',			false],
+		["Lullaby Moment",				"Beat Scrapped.",									'scrapped',				false],
+		["Cheater",						"MNF Archieve Pass: ERRRROR didnt want that...",	'error',				 true],
+		["Epic time",					"Beat Casualty.",									'epic',					 true]
 	];
-
-	public static var achievementsUnlocked:Array<Dynamic> = [ //Save string and Achievement tag + is it unlocked?
-		['friday_night_play', false],
-		['week1_nomiss', false],
-		['week2_nomiss', false],
-		['helltaburet', false],
-		['ihelltaburet', false],
-		['taburgation', false],
-		['itaburgation', false],
-	];
+	public static var achievementsMap:Map<String, Bool> = new Map<String, Bool>();
 
 	public static var henchmenDeath:Int = 0;
-	public static function unlockAchievement(id:Int):Void {
-		FlxG.log.add('Completed achievement "' + achievementsStuff[id][0] +'"');
-		achievementsUnlocked[id][1] = true;
-		FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
+	public static function unlockAchievement(name:String):Void {
+		FlxG.log.add('Completed achievement "' + name +'"');
+		achievementsMap.set(name, true);
+		FlxG.sound.play(Paths.sound('ach'), 0.7);
+	}
+
+	public static function isAchievementUnlocked(name:String) {
+		if(achievementsMap.exists(name) && achievementsMap.get(name)) {
+			return true;
+		}
+		return false;
+	}
+
+	public static function getAchievementIndex(name:String) {
+		for (i in 0...achievementsStuff.length) {
+			if(achievementsStuff[i][2] == name) {
+				return i;
+			}
+		}
+		return -1;
 	}
 
 	public static function loadAchievements():Void {
 		if(FlxG.save.data != null) {
+			if(FlxG.save.data.achievementsMap != null) {
+				achievementsMap = FlxG.save.data.achievementsMap;
+			}
 			if(FlxG.save.data.achievementsUnlocked != null) {
 				FlxG.log.add("Trying to load stuff");
 				var savedStuff:Array<String> = FlxG.save.data.achievementsUnlocked;
-				for (i in 0...achievementsUnlocked.length) {
-					for (j in 0...savedStuff.length) {
-						if(achievementsUnlocked[i][0] == savedStuff[j]) {
-							achievementsUnlocked[i][1] = true;
-						}
-					}
+				for (i in 0...savedStuff.length) {
+					achievementsMap.set(savedStuff[i], true);
 				}
 			}
 			if(henchmenDeath == 0 && FlxG.save.data.henchmenDeath != null) {
@@ -71,19 +82,29 @@ class Achievements {
 
 class AttachedAchievement extends FlxSprite {
 	public var sprTracker:FlxSprite;
-	public function new(x:Float = 0, y:Float = 0, id:Int = 0) {
+	private var tag:String;
+	public function new(x:Float = 0, y:Float = 0, name:String) {
 		super(x, y);
 
-		if(Achievements.achievementsUnlocked[id][1]) {
+		changeAchievement(name);
+		antialiasing = ClientPrefs.globalAntialiasing;
+	}
+
+	public function changeAchievement(tag:String) {
+		this.tag = tag;
+		reloadAchievementImage();
+	}
+
+	public function reloadAchievementImage() {
+		if(Achievements.isAchievementUnlocked(tag)) {
 			loadGraphic(Paths.image('achievementgrid'), true, 150, 150);
-			animation.add('icon', [id], 0, false, false);
+			animation.add('icon', [Achievements.getAchievementIndex(tag)], 0, false, false);
 			animation.play('icon');
 		} else {
 			loadGraphic(Paths.image('lockedachievement'));
 		}
-		setGraphicSize(Std.int(width * 0.7));
+		scale.set(0.7, 0.7);
 		updateHitbox();
-		antialiasing = ClientPrefs.globalAntialiasing;
 	}
 
 	override function update(elapsed:Float) {
@@ -97,10 +118,12 @@ class AttachedAchievement extends FlxSprite {
 class AchievementObject extends FlxSpriteGroup {
 	public var onFinish:Void->Void = null;
 	var alphaTween:FlxTween;
-	public function new(id:Int, ?camera:FlxCamera = null)
+	public function new(name:String, ?camera:FlxCamera = null)
 	{
 		super(x, y);
 		ClientPrefs.saveSettings();
+
+		var id:Int = Achievements.getAchievementIndex(name);
 		var achievementBG:FlxSprite = new FlxSprite(60, 50).makeGraphic(420, 120, FlxColor.BLACK);
 		achievementBG.scrollFactor.set();
 

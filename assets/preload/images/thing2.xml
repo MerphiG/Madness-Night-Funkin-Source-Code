@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="thing2.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Thing20000" x="4" y="4" width="5452" height="200" frameX="0" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20001" x="4" y="208" width="5453" height="200" frameX="-26" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20002" x="4" y="208" width="5453" height="200" frameX="-52" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20003" x="4" y="412" width="5452" height="200" frameX="-79" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20004" x="4" y="616" width="5452" height="200" frameX="-105" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20005" x="4" y="616" width="5452" height="200" frameX="-131" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20006" x="4" y="616" width="5452" height="200" frameX="-157" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20007" x="4" y="820" width="5452" height="200" frameX="-184" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20008" x="4" y="208" width="5453" height="200" frameX="-210" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20009" x="4" y="208" width="5453" height="200" frameX="-236" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20010" x="4" y="208" width="5453" height="200" frameX="-262" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20011" x="4" y="412" width="5452" height="200" frameX="-288" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20012" x="4" y="412" width="5452" height="200" frameX="-315" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20013" x="4" y="412" width="5452" height="200" frameX="-341" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20014" x="4" y="412" width="5452" height="200" frameX="-367" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20015" x="4" y="412" width="5452" height="200" frameX="-393" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20016" x="4" y="208" width="5453" height="200" frameX="-420" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20017" x="4" y="208" width="5453" height="200" frameX="-446" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20018" x="4" y="208" width="5453" height="200" frameX="-472" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20019" x="4" y="208" width="5453" height="200" frameX="-498" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20020" x="4" y="412" width="5452" height="200" frameX="-525" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20021" x="4" y="412" width="5452" height="200" frameX="-551" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20022" x="4" y="412" width="5452" height="200" frameX="-577" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20023" x="4" y="412" width="5452" height="200" frameX="-603" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20024" x="4" y="208" width="5453" height="200" frameX="-629" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20025" x="4" y="208" width="5453" height="200" frameX="-656" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20026" x="4" y="208" width="5453" height="200" frameX="-682" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20027" x="4" y="208" width="5453" height="200" frameX="-708" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20028" x="4" y="208" width="5453" height="200" frameX="-734" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20029" x="4" y="412" width="5452" height="200" frameX="-761" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20030" x="4" y="412" width="5452" height="200" frameX="-787" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20031" x="4" y="412" width="5452" height="200" frameX="-813" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20032" x="4" y="412" width="5452" height="200" frameX="-839" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20033" x="4" y="208" width="5453" height="200" frameX="-865" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20034" x="4" y="208" width="5453" height="200" frameX="-892" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20035" x="4" y="208" width="5453" height="200" frameX="-918" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20036" x="4" y="208" width="5453" height="200" frameX="-944" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20037" x="4" y="412" width="5452" height="200" frameX="-970" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20038" x="4" y="616" width="5452" height="200" frameX="-997" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20039" x="4" y="616" width="5452" height="200" frameX="-1023" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20040" x="4" y="616" width="5452" height="200" frameX="-1049" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20041" x="4" y="1024" width="5453" height="200" frameX="-1075" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20042" x="4" y="1024" width="5453" height="200" frameX="-1102" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20043" x="4" y="1024" width="5453" height="200" frameX="-1128" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20044" x="4" y="1228" width="5452" height="200" frameX="-1154" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20045" x="4" y="208" width="5453" height="200" frameX="-1180" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20046" x="4" y="412" width="5452" height="200" frameX="-1207" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20047" x="4" y="412" width="5452" height="200" frameX="-1233" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20048" x="4" y="412" width="5452" height="200" frameX="-1259" frameY="0" frameWidth="6738" frameHeight="200"/>
+	<SubTexture name="Thing20049" x="4" y="1432" width="5453" height="200" frameX="-1285" frameY="0" frameWidth="6738" frameHeight="200"/>
+</TextureAtlas>

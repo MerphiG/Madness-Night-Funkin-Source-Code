@@ -6,6 +6,7 @@ import llua.Convert;
 #end
 
 import flixel.FlxG;
+
 import flixel.tweens.FlxTween;
 import flixel.tweens.FlxEase;
 import flixel.text.FlxText;
@@ -27,6 +28,10 @@ import sys.io.File;
 import Type.ValueType;
 import Controls;
 import DialogueBoxPsych;
+
+#if desktop
+import Discord;
+#end
 
 using StringTools;
 

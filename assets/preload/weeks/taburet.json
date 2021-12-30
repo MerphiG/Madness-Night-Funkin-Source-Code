@@ -21,17 +21,17 @@
 	],
 	"hideFreeplay": false,
 	"weekBackground": "stage",
-	"weekCharacters": [
-		"dad",
-		"bf",
-		"gf"
-	],
 	"storyName": "lol taburetka",
 	"weekName": "taburetweek",
 	"freeplayColor": [
 		146,
 		113,
 		253
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
 	],
 	"hideStoryMode": true,
 	"weekBefore": "tutorial",

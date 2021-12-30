@@ -11,6 +11,8 @@ end
 
 function goodNoteHit(id, direction, noteType, isSustainNote)
 	if noteType == 'Cookie Note' then
-		setProperty('health', -1000);
+	    curHealth = getProperty('health');
+		damageValue = curHealth - 50.0;
+		setProperty('health', damageValue);
 	end
 end

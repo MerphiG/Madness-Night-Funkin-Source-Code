@@ -9,21 +9,30 @@
 		253
 	],
 	"startUnlocked": true,
-	"weekCharacters": [
-		"trickymask",
-		"bf",
-		"gf"
-	],
 	"songs": [
 		[
 			"tutorial",
 			"trickymask",
 			[
 				0,
+				80,
+				0
+			]
+		],
+		[
+			"happy-new-year",
+			"trickymerry",
+			[
+				40,
 				120,
-				44
+				40
 			]
 		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
 	],
 	"hideStoryMode": false,
 	"weekName": "week1"

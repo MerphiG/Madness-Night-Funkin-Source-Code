@@ -23,10 +23,11 @@ class Note extends FlxSprite
 	public var hitByOpponent:Bool = false;
 	public var noteWasHit:Bool = false;
 	public var prevNote:Note;
-
+	public var noteSkin:String = 'normal';
 	public var sustainLength:Float = 0;
 	public var isSustainNote:Bool = false;
 	public var noteType(default, set):String = null;
+	public var downscrollNote:Bool = ClientPrefs.downScroll;
 
 	public var eventName:String = '';
 	public var eventVal1:String = '';
@@ -107,7 +108,7 @@ class Note extends FlxSprite
 		return value;
 	}
 
-	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?inEditor:Bool = false)
+	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?inEditor:Bool = false, ?noteSkin:String = '')
 	{
 		super();
 
@@ -117,6 +118,7 @@ class Note extends FlxSprite
 		this.prevNote = prevNote;
 		isSustainNote = sustainNote;
 		this.inEditor = inEditor;
+		this.noteSkin = noteSkin;
 
 		x += (ClientPrefs.middleScroll ? PlayState.STRUM_X_MIDDLESCROLL : PlayState.STRUM_X) + 50;
 		// MAKE SURE ITS DEFINITELY OFF SCREEN?
@@ -144,7 +146,6 @@ class Note extends FlxSprite
 						animToPlay = 'green';
 					case 3:
 						animToPlay = 'red';
-					case 4:
 				}
 				animation.play(animToPlay + 'Scroll');
 			}
@@ -222,6 +223,25 @@ class Note extends FlxSprite
 			skin = PlayState.SONG.arrowSkin;
 			if(skin == null || skin.length < 1) {
 				skin = 'NOTE_assets';
+				switch (noteSkin)
+				{
+                    case 'NOTE_assets':
+                        skin = 'NOTE_assets';
+                    case 'bloodynotes':
+                        skin = 'bloodynotes';
+                    case 'glitchnotes':
+                        skin = 'glitchnotes';
+					case 'amogusnotes':
+                        skin = 'amogusnotes';
+					case 'candynotes':
+                        skin = 'candynotes';
+					case 'taburetnotes':
+                        skin = 'taburetnotes';
+					case 'extaburetnotes':
+                        skin = 'extaburetnotes';
+					case 'bonenotes':
+                        skin = 'bonenotes';
+				}
 			}
 		}
 

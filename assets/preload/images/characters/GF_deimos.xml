@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GF_deimos.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF Deimos0000" x="4" y="4" width="1006" height="634" frameX="-2" frameY="-14" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0001" x="1014" y="4" width="1008" height="634" frameX="0" frameY="-14" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0002" x="2026" y="4" width="1004" height="632" frameX="0" frameY="-16" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0003" x="3034" y="4" width="1002" height="632" frameX="-2" frameY="-16" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0004" x="4" y="642" width="997" height="635" frameX="-2" frameY="-13" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0005" x="1005" y="642" width="997" height="635" frameX="-2" frameY="-13" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0006" x="2006" y="642" width="994" height="637" frameX="-2" frameY="-11" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0007" x="3004" y="642" width="994" height="648" frameX="-2" frameY="0" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0008" x="4" y="1294" width="994" height="648" frameX="-2" frameY="0" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0009" x="4" y="1294" width="994" height="648" frameX="-2" frameY="0" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0010" x="1002" y="1294" width="994" height="648" frameX="-2" frameY="0" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0011" x="1002" y="1294" width="994" height="648" frameX="-2" frameY="0" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0012" x="1002" y="1294" width="994" height="648" frameX="-2" frameY="0" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0013" x="2000" y="1294" width="994" height="648" frameX="-2" frameY="0" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0014" x="2000" y="1294" width="994" height="648" frameX="-2" frameY="0" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0015" x="2998" y="1294" width="1006" height="636" frameX="-2" frameY="-12" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0016" x="4" y="1946" width="1008" height="636" frameX="0" frameY="-12" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0017" x="1016" y="1946" width="1004" height="636" frameX="0" frameY="-12" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0018" x="2024" y="1946" width="1002" height="636" frameX="-2" frameY="-12" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0019" x="3030" y="1946" width="997" height="637" frameX="-2" frameY="-11" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0020" x="4" y="2587" width="997" height="637" frameX="-2" frameY="-11" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0021" x="1005" y="2587" width="994" height="638" frameX="-2" frameY="-10" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0022" x="2003" y="2587" width="994" height="643" frameX="-2" frameY="-5" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0023" x="3001" y="2587" width="994" height="643" frameX="-2" frameY="-5" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0024" x="3001" y="2587" width="994" height="643" frameX="-2" frameY="-5" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0025" x="4" y="3234" width="994" height="642" frameX="-2" frameY="-6" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0026" x="4" y="3234" width="994" height="642" frameX="-2" frameY="-6" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0027" x="4" y="3234" width="994" height="642" frameX="-2" frameY="-6" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0028" x="1002" y="3234" width="994" height="642" frameX="-2" frameY="-6" frameWidth="1008" frameHeight="648"/>
+	<SubTexture name="GF Deimos0029" x="1002" y="3234" width="994" height="642" frameX="-2" frameY="-6" frameWidth="1008" frameHeight="648"/>
+</TextureAtlas>

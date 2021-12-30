@@ -3,8 +3,10 @@ package;
 #if desktop
 import Discord.DiscordClient;
 #end
+import flixel.util.FlxTimer;
 import flash.text.TextField;
 import flixel.FlxG;
+import flixel.FlxObject;
 import flixel.FlxSprite;
 import flixel.addons.display.FlxGridOverlay;
 import flixel.addons.transition.FlxTransitionableState;
@@ -44,6 +46,10 @@ class FreeplayState extends MusicBeatState
 	var bg:FlxSprite;
 	var intendedColor:Int;
 	var colorTween:FlxTween;
+
+	var error:Bool = false;
+	var appearError:Bool = FlxG.random.bool(100);
+	var errorHitbox:FlxObject;
 
 	override function create()
 	{
@@ -155,6 +161,20 @@ class FreeplayState extends MusicBeatState
 			trace(md);
 		 */
 
+		var error = new FlxSprite(800, 220).loadGraphic(Paths.image('error/errorbutton','shared'));
+		error.setGraphicSize(Std.int(error.width * 0.15));
+		error.scrollFactor.set();
+		error.updateHitbox();
+		if (appearError) {
+		    add(error);
+		}
+
+		errorHitbox = new FlxObject(error.x - 0, error.y - 0, 300, 77);
+		errorHitbox.scrollFactor.set();
+		if (appearError) {
+		    add(errorHitbox);
+		}
+
 		var textBG:FlxSprite = new FlxSprite(0, FlxG.height - 26).makeGraphic(FlxG.width, 26, 0xFF000000);
 		textBG.alpha = 0.6;
 		add(textBG);
@@ -200,6 +220,46 @@ class FreeplayState extends MusicBeatState
 	private static var vocals:FlxSound = null;
 	override function update(elapsed:Float)
 	{
+		if (appearError) {
+			if (FlxG.keys.justPressed.E)
+			{
+				FlxG.mouse.visible = true;
+				FlxG.sound.play(Paths.sound('HoverSFX','shared'));
+			}
+
+			if (controls.BACK)
+			{
+				FlxG.mouse.visible = false;
+			}
+
+			if (controls.ACCEPT)
+			{
+				FlxG.mouse.visible = false;
+			}
+
+			if (FlxG.mouse.visible == true)
+			{
+				error = true;
+			}
+		}
+		
+		if (error == true) {
+			if (FlxG.mouse.overlaps(errorHitbox)) {
+				if (FlxG.mouse.justPressed) {
+				FlxG.mouse.visible = false;
+			    PlayState.storyPlaylist = ['error'];
+			    PlayState.isStoryMode = false;
+			    PlayState.storyWeek = 0;
+                PlayState.campaignScore = 0;
+                PlayState.campaignMisses = 0;
+			    PlayState.SONG = Song.loadFromJson(StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase() + '-hard', StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase());
+			    new FlxTimer().start(1, function(tmr:FlxTimer) {
+			        LoadingState.loadAndSwitchState(new PlayState(), true);
+			    });
+			}
+		}
+	}
+	
 		if (FlxG.sound.music.volume < 0.7)
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;

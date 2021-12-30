@@ -1,48 +1,57 @@
 {
-	"storyName": "vs grunt",
-	"hideFreeplay": false,
-	"weekBackground": "gruntstage",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
-	"weekBefore": "tutorial-rmx",
-	"startUnlocked": true,
-	"weekCharacters": [
-		"grunt",
-		"bf",
-		"gf"
-	],
 	"songs": [
 		[
 			"reversal",
 			"grunt",
 			[
-				146,
-				113,
-				253
+				155,
+				140,
+				255
 			]
 		],
 		[
 			"lyrics",
 			"grunt",
 			[
-				146,
-				113,
-				253
+				155,
+				140,
+				255
 			]
 		],
 		[
 			"target",
 			"gruntgun",
 			[
-				146,
-				113,
-				253
+				115,
+				100,
+				215
+			]
+		],
+		[
+			"recharge",
+			"gruntgun",
+			[
+				115,
+				100,
+				215
 			]
 		]
 	],
+	"hideFreeplay": false,
+	"weekBackground": "gruntstage",
+	"storyName": "vs grunt",
+	"weekName": "week2",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"hideStoryMode": false,
-	"weekName": "week2"
+	"weekBefore": "tutorial",
+	"startUnlocked": true
 }

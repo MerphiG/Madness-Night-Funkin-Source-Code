@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-53,
+				87
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Deimos left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-46,
+				107
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Deimos Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-54,
+				61
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Deimos Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-52,
+				89
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Deimos RIght",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-18,
+				87
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Deimos idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/deimos",
+	"position": [
+		200,
+		320
+	],
+	"healthicon": "deimos",
+	"flip_x": false,
+	"healthbar_colors": [
+		128,
+		116,
+		169
+	],
+	"camera_position": [
+		130,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

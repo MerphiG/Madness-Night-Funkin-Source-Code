@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Err.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="glitch0000" x="4" y="4" width="1920" height="1080" frameX="0" frameY="0" frameWidth="1921" frameHeight="1080"/>
+	<SubTexture name="glitch0001" x="1928" y="4" width="1920" height="1080" frameX="-1" frameY="0" frameWidth="1921" frameHeight="1080"/>
+	<SubTexture name="glitch0002" x="3852" y="4" width="1920" height="1080" frameX="-1" frameY="0" frameWidth="1921" frameHeight="1080"/>
+</TextureAtlas>

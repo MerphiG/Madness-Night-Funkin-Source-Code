@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-193,
+				-96
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-180,
+				-160
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-154,
+				-97
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "right"
+		},
+		{
+			"offsets": [
+				-171,
+				-93
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-163,
+				-52
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/trickymerry",
+	"position": [
+		200,
+		320
+	],
+	"healthicon": "trickymerry",
+	"flip_x": false,
+	"healthbar_colors": [
+		40,
+		120,
+		80
+	],
+	"camera_position": [
+		190,
+		150
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

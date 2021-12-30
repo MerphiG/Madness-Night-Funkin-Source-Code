@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				-85,
+				94
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "s_d_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-81,
+				95
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "d_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-87,
+				135
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "d_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-89,
+				92
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "d_Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-88,
+				95
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "d_Down",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/deimos-duo",
+	"position": [
+		-10,
+		320
+	],
+	"healthicon": "deimos2",
+	"flip_x": false,
+	"healthbar_colors": [
+		128,
+		116,
+		149
+	],
+	"camera_position": [
+		270,
+		-30
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

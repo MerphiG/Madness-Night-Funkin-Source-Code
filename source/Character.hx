@@ -72,6 +72,7 @@ class Character extends FlxSprite
 	public var originalFlipX:Bool = false;
 	public var healthColorArray:Array<Int> = [255, 0, 0];
 	public var alreadyLoaded:Bool = true; //Used by "Change Character" event
+	public var noteSkin:String = 'normal';
 
 	public static var DEFAULT_CHARACTER:String = 'bf'; //In case a character is missing, it will use BF on its place
 	public function new(x:Float, y:Float, ?character:String = 'bf', ?isPlayer:Bool = false)
@@ -197,6 +198,43 @@ class Character extends FlxSprite
 					animation.getByName('singLEFTmiss').frames = oldMiss;
 				}
 			}*/
+		}
+		switch (curCharacter)
+		{
+			case 'bf':
+				noteSkin = 'NOTE_assets';
+			case 'grunt':
+				noteSkin = 'bloodynotes';
+			case 'gruntgun':
+				noteSkin = 'bloodynotes';
+			case 'trickymask':
+				noteSkin = 'bloodynotes';
+			case 'scrapface':
+				noteSkin = 'glitchnotes';
+			case 'scrapfacehypno':
+				noteSkin = 'glitchnotes';
+			case 'tikymogus':
+				noteSkin = 'amogusnotes';
+			case 'trickymerry':
+				noteSkin = 'candynotes';
+			case 'taburet':
+				noteSkin = 'taburetnotes';
+			case 'extaburet':
+				noteSkin = 'extaburetnotes';
+			case 'epic-sans':
+				noteSkin = 'bonenotes';
+			case 'deimos':
+				noteSkin = 'bloodynotes';
+			case 'deimos-duo':
+				noteSkin = 'bloodynotes';
+			case 'sanford':
+				noteSkin = 'bloodynotes';
+			case 'sanford-duo':
+				noteSkin = 'bloodynotes';
+			case 'error':
+				noteSkin = 'glitchnotes';
+			case 'sanfo':
+				noteSkin = 'bloodynotes';
 		}
 	}
 

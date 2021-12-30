@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GF_sanford.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF Sanfo0000" x="4" y="4" width="978" height="634" frameX="-2" frameY="-14" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0001" x="986" y="4" width="980" height="634" frameX="0" frameY="-14" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0002" x="1970" y="4" width="982" height="632" frameX="0" frameY="-16" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0003" x="2956" y="4" width="980" height="632" frameX="-2" frameY="-16" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0004" x="4" y="642" width="974" height="635" frameX="-2" frameY="-13" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0005" x="982" y="642" width="974" height="635" frameX="-2" frameY="-13" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0006" x="1960" y="642" width="970" height="637" frameX="-2" frameY="-11" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0007" x="2934" y="642" width="970" height="648" frameX="-2" frameY="0" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0008" x="4" y="1294" width="970" height="648" frameX="-2" frameY="0" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0009" x="4" y="1294" width="970" height="648" frameX="-2" frameY="0" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0010" x="978" y="1294" width="970" height="648" frameX="-2" frameY="0" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0011" x="978" y="1294" width="970" height="648" frameX="-2" frameY="0" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0012" x="978" y="1294" width="970" height="648" frameX="-2" frameY="0" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0013" x="1952" y="1294" width="970" height="648" frameX="-2" frameY="0" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0014" x="1952" y="1294" width="970" height="648" frameX="-2" frameY="0" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0015" x="2926" y="1294" width="978" height="636" frameX="-2" frameY="-12" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0016" x="4" y="1946" width="980" height="636" frameX="0" frameY="-12" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0017" x="988" y="1946" width="982" height="636" frameX="0" frameY="-12" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0018" x="1974" y="1946" width="980" height="636" frameX="-2" frameY="-12" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0019" x="2958" y="1946" width="974" height="637" frameX="-2" frameY="-11" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0020" x="4" y="2587" width="974" height="637" frameX="-2" frameY="-11" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0021" x="982" y="2587" width="970" height="638" frameX="-2" frameY="-10" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0022" x="1956" y="2587" width="970" height="643" frameX="-2" frameY="-5" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0023" x="2930" y="2587" width="970" height="643" frameX="-2" frameY="-5" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0024" x="2930" y="2587" width="970" height="643" frameX="-2" frameY="-5" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0025" x="4" y="3234" width="970" height="642" frameX="-2" frameY="-6" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0026" x="4" y="3234" width="970" height="642" frameX="-2" frameY="-6" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0027" x="4" y="3234" width="970" height="642" frameX="-2" frameY="-6" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0028" x="978" y="3234" width="970" height="642" frameX="-2" frameY="-6" frameWidth="982" frameHeight="648"/>
+	<SubTexture name="GF Sanfo0029" x="978" y="3234" width="970" height="642" frameX="-2" frameY="-6" frameWidth="982" frameHeight="648"/>
+</TextureAtlas>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Pendelum.png">
+	<SubTexture name="Pendelum0000" x="0" y="0" width="139" height="327"/>
+	<SubTexture name="Pendelum0001" x="0" y="0" width="139" height="327"/>
+	<SubTexture name="Pendelum0002" x="149" y="0" width="139" height="327"/>
+	<SubTexture name="Pendelum0003" x="149" y="0" width="139" height="327"/>
+</TextureAtlas>

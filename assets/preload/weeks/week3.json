@@ -1,0 +1,57 @@
+{
+	"storyName": "vs the best duo",
+	"hideFreeplay": false,
+	"weekBackground": "deimosstage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"startUnlocked": true,
+	"songs": [
+		[
+			"hooking",
+			"sanford",
+			[
+				120,
+				140,
+				255
+			]
+		],
+		[
+			"aggregation",
+			"sanford2",
+			[
+				120,
+				140,
+				255
+			]
+		],
+		[
+			"smoking-out",
+			"deimos2",
+			[
+				120,
+				140,
+				255
+			]
+		],
+		[
+			"hook-the-cigarette",
+			"deimos",
+			[
+				120,
+				140,
+				255
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "week3"
+}

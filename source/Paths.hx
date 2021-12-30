@@ -24,14 +24,26 @@ class Paths
 
 	#if MODS_ALLOWED
 	#if (haxe >= "4.0.0")
-	public static var ignoreModFolders:Map<String, Bool> = new Map();
 	public static var customImagesLoaded:Map<String, Bool> = new Map();
 	public static var customSoundsLoaded:Map<String, Sound> = new Map();
 	#else
-	public static var ignoreModFolders:Map<String, Bool> = new Map<String, Bool>();
 	public static var customImagesLoaded:Map<String, Bool> = new Map<String, Bool>();
 	public static var customSoundsLoaded:Map<String, Sound> = new Map<String, Sound>();
 	#end
+	
+	public static var ignoreModFolders:Array<String> = [
+		'characters',
+		'custom_events',
+		'custom_notetypes',
+		'data',
+		'songs',
+		'music',
+		'sounds',
+		'videos',
+		'images',
+		'stages',
+		'weeks'
+	];
 	#end
 
 	public static function destroyLoadedImages(ignoreCheck:Bool = false) {
@@ -50,25 +62,8 @@ class Paths
 		#end
 	}
 
-	static public var currentModDirectory:String = null;
+	static public var currentModDirectory:String = '';
 	static var currentLevel:String;
-	static public function getModFolders()
-	{
-		#if MODS_ALLOWED
-		ignoreModFolders.set('characters', true);
-		ignoreModFolders.set('custom_events', true);
-		ignoreModFolders.set('custom_notetypes', true);
-		ignoreModFolders.set('data', true);
-		ignoreModFolders.set('songs', true);
-		ignoreModFolders.set('music', true);
-		ignoreModFolders.set('sounds', true);
-		ignoreModFolders.set('videos', true);
-		ignoreModFolders.set('images', true);
-		ignoreModFolders.set('stages', true);
-		ignoreModFolders.set('weeks', true);
-		#end
-	}
-
 	static public function setCurrentLevel(name:String)
 	{
 		currentLevel = name.toLowerCase();
@@ -227,8 +222,10 @@ class Paths
 	static public function getTextFromFile(key:String, ?ignoreMods:Bool = false):String
 	{
 		#if sys
+		#if MODS_ALLOWED
 		if (!ignoreMods && FileSystem.exists(mods(key)))
 			return File.getContent(mods(key));
+		#end
 
 		if (FileSystem.exists(getPreloadPath(key)))
 			return File.getContent(getPreloadPath(key));
@@ -362,6 +359,20 @@ class Paths
 			}
 		}
 		return 'mods/' + key;
+	}
+
+	static public function getModDirectories():Array<String> {
+		var list:Array<String> = [];
+		var modsFolder:String = Paths.mods();
+		if(FileSystem.exists(modsFolder)) {
+			for (folder in FileSystem.readDirectory(modsFolder)) {
+				var path = haxe.io.Path.join([modsFolder, folder]);
+				if (sys.FileSystem.isDirectory(path) && !Paths.ignoreModFolders.contains(folder) && !list.contains(folder)) {
+					list.push(folder);
+				}
+			}
+		}
+		return list;
 	}
 	#end
 }

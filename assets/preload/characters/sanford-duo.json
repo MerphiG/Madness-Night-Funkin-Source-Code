@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				-85,
+				94
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "s_d_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-32,
+				94
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "s_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-72,
+				121
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "s_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-117,
+				99
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "s_Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-23,
+				89
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "s_Down",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sanford-duo",
+	"position": [
+		-10,
+		320
+	],
+	"healthicon": "sanford2",
+	"flip_x": false,
+	"healthbar_colors": [
+		128,
+		116,
+		149
+	],
+	"camera_position": [
+		245,
+		-25
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

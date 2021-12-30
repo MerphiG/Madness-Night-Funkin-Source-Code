@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="sanfo.png">
+<SubTexture name="sanfo Idle0000" x="0" y="0" width="804" height="604" frameX="0" frameY="0" frameWidth="804" frameHeight="604" />
+<SubTexture name="sanfo Idle0001" x="804" y="0" width="804" height="604" frameX="0" frameY="0" frameWidth="804" frameHeight="604" />
+<SubTexture name="sanfo Idle0002" x="1608" y="0" width="804" height="604" frameX="0" frameY="0" frameWidth="804" frameHeight="604" />
+<SubTexture name="sanfo Down0000" x="0" y="604" width="804" height="604" frameX="0" frameY="0" frameWidth="804" frameHeight="604" />
+<SubTexture name="sanfo Down0001" x="804" y="604" width="804" height="604" frameX="0" frameY="0" frameWidth="804" frameHeight="604" />
+<SubTexture name="sanfo Left0000" x="1608" y="604" width="804" height="604" frameX="0" frameY="0" frameWidth="804" frameHeight="604" />
+<SubTexture name="sanfo Left0001" x="0" y="1208" width="804" height="604" frameX="0" frameY="0" frameWidth="804" frameHeight="604" />
+<SubTexture name="sanfo Right0000" x="804" y="1208" width="804" height="604" frameX="0" frameY="0" frameWidth="804" frameHeight="604" />
+<SubTexture name="sanfo Right0001" x="1608" y="1208" width="804" height="604" frameX="0" frameY="0" frameWidth="804" frameHeight="604" />
+<SubTexture name="sanfo Up0000" x="0" y="1812" width="804" height="604" frameX="0" frameY="0" frameWidth="804" frameHeight="604" />
+<SubTexture name="sanfo Up0001" x="804" y="1812" width="804" height="604" frameX="0" frameY="0" frameWidth="804" frameHeight="604" />
+</TextureAtlas>

@@ -1,88 +1,88 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				323,
-				28
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				171,
+				70
+			],
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "left_gun"
-		},
-		{
-			"offsets": [
-				269,
-				-43
-			],
-			"loop": false,
 			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "down_gun"
-		},
-		{
-			"offsets": [
-				212,
-				-36
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Right_gun"
-		},
-		{
-			"offsets": [
-				283,
-				44
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "Uo_gun"
-		},
-		{
-			"offsets": [
-				256,
-				44
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "shot",
-			"indices": [],
-			"name": "Grunt_shot"
-		},
-		{
-			"offsets": [
-				258,
-				43
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "Idle_gun"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				254,
-				43
-			],
-			"anim": "recharge",
-			"fps": 24,
-			"name": "recharging",
+			"name": "Left",
 			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				67,
+				70
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				95,
+				57
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				111,
+				93
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				116,
+				70
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				69
+			],
+			"anim": "shot",
+			"fps": 15,
+			"name": "shoot",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-5,
+				70
+			],
+			"indices": [],
+			"fps": 10,
+			"anim": "recharge",
+			"loop": false,
+			"name": "gun_animation"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/gruntgun",
 	"position": [
-		240,
-		350
+		270,
+		370
 	],
 	"healthicon": "gruntgun",
 	"flip_x": false,
@@ -92,9 +92,9 @@
 		189
 	],
 	"camera_position": [
-		-30,
-		-30
+		0,
+		0
 	],
 	"sing_duration": 4,
-	"scale": 1.1
+	"scale": 1
 }

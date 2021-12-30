@@ -1,0 +1,39 @@
+{
+	"storyName": "glitched grunt",
+	"hideFreeplay": false,
+	"weekBackground": "scrapface",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"startUnlocked": true,
+	"songs": [
+		[
+			"armagedon",
+			"scrapface",
+			[
+				200,
+				40,
+				40
+			]
+		],
+		[
+			"glitchy-pixels",
+			"scrapface",
+			[
+				200,
+				40,
+				40
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "week4"
+}

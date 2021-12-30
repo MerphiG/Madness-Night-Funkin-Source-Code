@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				274,
+				239
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				274,
+				217
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				189,
+				247
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				411,
+				218
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				311,
+				291
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				270,
+				245
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "knife",
+			"loop": false,
+			"name": "knife"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/tikymogus",
+	"position": [
+		200,
+		310
+	],
+	"healthicon": "tikymogus",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		60,
+		0
+	],
+	"camera_position": [
+		-150,
+		-210
+	],
+	"sing_duration": 4,
+	"scale": 1.2
+}

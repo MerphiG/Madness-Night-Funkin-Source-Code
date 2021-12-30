@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="deimos-duo.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="d_Down0000" x="0" y="0" width="844" height="557" frameX="-1" frameY="-1" frameWidth="845" frameHeight="558"/>
+	<SubTexture name="d_Down0001" x="0" y="0" width="844" height="557" frameX="-1" frameY="-1" frameWidth="845" frameHeight="558"/>
+	<SubTexture name="d_Down0002" x="846" y="0" width="843" height="558" frameX="0" frameY="0" frameWidth="845" frameHeight="558"/>
+	<SubTexture name="d_Left0000" x="1691" y="0" width="818" height="558"/>
+	<SubTexture name="d_Left0001" x="1691" y="0" width="818" height="558"/>
+	<SubTexture name="d_Left0002" x="2511" y="0" width="817" height="558" frameX="-1" frameY="0" frameWidth="818" frameHeight="558"/>
+	<SubTexture name="d_Right0000" x="0" y="560" width="899" height="555" frameX="-1" frameY="0" frameWidth="900" frameHeight="555"/>
+	<SubTexture name="d_Right0001" x="0" y="560" width="899" height="555" frameX="-1" frameY="0" frameWidth="900" frameHeight="555"/>
+	<SubTexture name="d_Right0002" x="901" y="560" width="892" height="555" frameX="0" frameY="0" frameWidth="900" frameHeight="555"/>
+	<SubTexture name="d_Up0000" x="1795" y="560" width="856" height="598" frameX="0" frameY="0" frameWidth="857" frameHeight="598"/>
+	<SubTexture name="d_Up0001" x="1795" y="560" width="856" height="598" frameX="0" frameY="0" frameWidth="857" frameHeight="598"/>
+	<SubTexture name="d_Up0002" x="2653" y="560" width="856" height="592" frameX="-1" frameY="-6" frameWidth="857" frameHeight="598"/>
+	<SubTexture name="s_d_Idle0000" x="0" y="1160" width="844" height="547" frameX="-8" frameY="-10" frameWidth="852" frameHeight="557"/>
+	<SubTexture name="s_d_Idle0001" x="0" y="1160" width="844" height="547" frameX="-8" frameY="-10" frameWidth="852" frameHeight="557"/>
+	<SubTexture name="s_d_Idle0002" x="846" y="1160" width="846" height="546" frameX="-5" frameY="-11" frameWidth="852" frameHeight="557"/>
+	<SubTexture name="s_d_Idle0003" x="846" y="1160" width="846" height="546" frameX="-5" frameY="-11" frameWidth="852" frameHeight="557"/>
+	<SubTexture name="s_d_Idle0004" x="1694" y="1160" width="846" height="548" frameX="-3" frameY="-9" frameWidth="852" frameHeight="557"/>
+	<SubTexture name="s_d_Idle0005" x="1694" y="1160" width="846" height="548" frameX="-3" frameY="-9" frameWidth="852" frameHeight="557"/>
+	<SubTexture name="s_d_Idle0006" x="2542" y="1160" width="847" height="552" frameX="0" frameY="-5" frameWidth="852" frameHeight="557"/>
+	<SubTexture name="s_d_Idle0007" x="2542" y="1160" width="847" height="552" frameX="0" frameY="-5" frameWidth="852" frameHeight="557"/>
+	<SubTexture name="s_d_Idle0008" x="0" y="1714" width="843" height="555" frameX="-1" frameY="-2" frameWidth="852" frameHeight="557"/>
+	<SubTexture name="s_d_Idle0009" x="0" y="1714" width="843" height="555" frameX="-1" frameY="-2" frameWidth="852" frameHeight="557"/>
+	<SubTexture name="s_d_Idle0010" x="845" y="1714" width="842" height="557" frameX="-1" frameY="0" frameWidth="852" frameHeight="557"/>
+</TextureAtlas>

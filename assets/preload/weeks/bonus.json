@@ -1,0 +1,57 @@
+{
+	"storyName": "Bonus",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"scrapped",
+			"scrapface",
+			[
+				200,
+				40,
+				40
+			]
+		],
+		[
+			"sanfo",
+			"sanfo",
+			[
+				120,
+				140,
+				255
+			]
+		],
+		[
+			"stress",
+			"deimos",
+			[
+				120,
+				140,
+				255
+			]
+		],
+		[
+			"trimogus",
+			"tikymogus",
+			[
+				78,
+				110,
+				78
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Bonus"
+}

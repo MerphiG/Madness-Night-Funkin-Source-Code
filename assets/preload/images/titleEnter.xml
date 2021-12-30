@@ -1,59 +1,551 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="titleEnter.png">
-	<!-- Created with Adobe Animate version 20.0.0.17400 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="ENTER PRESSED0000" x="0" y="0" width="1477" height="79"/>
-	<SubTexture name="ENTER PRESSED0001" x="1487" y="0" width="1477" height="79"/>
-	<SubTexture name="ENTER PRESSED0002" x="0" y="0" width="1477" height="79"/>
-	<SubTexture name="ENTER PRESSED0003" x="1487" y="0" width="1477" height="79"/>
-	<SubTexture name="ENTER PRESSED0004" x="0" y="0" width="1477" height="79"/>
-	<SubTexture name="ENTER PRESSED0005" x="1487" y="0" width="1477" height="79"/>
-	<SubTexture name="ENTER PRESSED0006" x="1487" y="0" width="1477" height="79"/>
-	<SubTexture name="ENTER PRESSED0007" x="0" y="0" width="1477" height="79"/>
-	<SubTexture name="ENTER PRESSED0008" x="1487" y="0" width="1477" height="79"/>
-	<SubTexture name="Press Enter to Begin0000" x="0" y="89" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0001" x="1505" y="89" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0002" x="0" y="195" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0003" x="1505" y="195" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0004" x="0" y="301" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0005" x="1505" y="301" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0006" x="0" y="407" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0007" x="1505" y="407" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0008" x="0" y="513" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0009" x="1505" y="513" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0010" x="0" y="619" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0011" x="1505" y="619" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0012" x="0" y="725" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0013" x="1505" y="725" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0014" x="0" y="831" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0015" x="1505" y="831" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0016" x="0" y="937" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0017" x="1505" y="937" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0018" x="0" y="1043" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0019" x="1505" y="1043" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0020" x="0" y="1149" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0021" x="1505" y="1149" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0022" x="0" y="1255" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0023" x="0" y="1255" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0024" x="1505" y="1255" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0025" x="0" y="1149" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0026" x="0" y="1361" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0027" x="1505" y="1361" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0028" x="0" y="1467" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0029" x="1505" y="1467" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0030" x="0" y="1573" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0031" x="1505" y="1573" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0032" x="0" y="1679" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0033" x="1505" y="1679" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0034" x="0" y="1785" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0035" x="1505" y="1785" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0036" x="0" y="1891" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0037" x="1505" y="1891" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0038" x="0" y="1997" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0039" x="1505" y="1997" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0040" x="0" y="2103" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0041" x="1505" y="2103" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0042" x="0" y="2209" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0043" x="1505" y="2209" width="1495" height="96"/>
-	<SubTexture name="Press Enter to Begin0044" x="0" y="89" width="1495" height="96"/>
+	<!-- Created with Merphi Hands -->
+	<!-- FUCK -->
+	<SubTexture name="ENTER PRESSED0000" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0001" x="843" y="4" width="887" height="587" frameX="29" frameY="66" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0002" x="1734" y="4" width="870" height="560" frameX="20" frameY="44" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0003" x="2608" y="4" width="852" height="533" frameX="10" frameY="22" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0004" x="4" y="595" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0005" x="843" y="595" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0006" x="1682" y="595" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0007" x="2521" y="595" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0008" x="4" y="1105" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0009" x="843" y="1105" width="838" height="506" frameX="3" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0010" x="1685" y="1105" width="842" height="506" frameX="7" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0011" x="2531" y="1105" width="846" height="506" frameX="11" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0012" x="4" y="1615" width="850" height="506" frameX="15" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0013" x="858" y="1615" width="857" height="506" frameX="20" frameY="-0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0014" x="1719" y="1615" width="864" height="506" frameX="23" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0015" x="2587" y="1615" width="872" height="506" frameX="27" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0016" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0017" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0018" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0019" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0020" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0021" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0022" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0023" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0024" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0025" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0026" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0027" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0028" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0029" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0030" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0031" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0032" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0033" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0034" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0035" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0036" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0037" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0038" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0039" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0040" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0041" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0042" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0043" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0044" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0045" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0046" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0047" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0048" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0049" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0050" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0051" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0052" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0053" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0054" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0055" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0056" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0057" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0058" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0059" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0060" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0061" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0062" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0063" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0064" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0065" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0066" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0067" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0068" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0069" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0070" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0071" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0072" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0073" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0074" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0075" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0076" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0077" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0078" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0079" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0080" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0081" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0082" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0083" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0084" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0085" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0086" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0087" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0088" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0089" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0090" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0091" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0092" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0093" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0094" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0095" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0096" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0097" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0098" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0099" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0100" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0101" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0102" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0103" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0104" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0105" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0106" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0107" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0108" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0109" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0110" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0111" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0112" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0113" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0114" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0115" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0116" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0117" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0118" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0119" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0120" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0121" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0122" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0123" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0124" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0125" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0126" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0127" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0128" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0129" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0130" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0131" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0132" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0133" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0134" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0135" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0136" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0137" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0138" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0139" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0140" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0141" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0142" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0143" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0144" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0145" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0146" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0147" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0148" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0149" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0150" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0151" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0152" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0153" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0154" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0155" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0156" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0157" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0158" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0159" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0160" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0161" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0162" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0163" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0164" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0165" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0166" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0167" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0168" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0169" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0170" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0171" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0172" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0173" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0174" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0175" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0176" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0177" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0178" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0179" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0180" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0181" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0182" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0183" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0184" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0185" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0186" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0187" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0188" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0189" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0190" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0191" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0192" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0193" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0194" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0195" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0196" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0197" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0198" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0199" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0200" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0201" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0202" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0203" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0204" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0205" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0206" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0207" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0208" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0209" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0210" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0211" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0212" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0213" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0214" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0215" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0216" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0217" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0218" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0219" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0220" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0221" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0222" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0223" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0224" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0225" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0226" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0227" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0228" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0229" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0230" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0231" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0232" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0233" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0234" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0235" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0236" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0237" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0238" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0239" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0240" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0241" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0242" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0243" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0244" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0245" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0246" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0247" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0248" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0249" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0250" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0251" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0252" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0253" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0254" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0255" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0256" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0257" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0258" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0259" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0260" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0261" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0262" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0263" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0264" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0265" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0266" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0267" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0268" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0269" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0270" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0271" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0272" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0273" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0274" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0275" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0276" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0277" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0278" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0279" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0280" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0281" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0282" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0283" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0284" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0285" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0286" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0287" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0288" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0289" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0290" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0291" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0292" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0293" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0294" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0295" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0296" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0297" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0298" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0299" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0300" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0301" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0302" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0303" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0304" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0305" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0306" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0307" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0308" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0309" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0310" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0311" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0312" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0313" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0314" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0315" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0316" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0317" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0318" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0319" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0320" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0321" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0322" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0323" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0324" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0325" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0326" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0327" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0328" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0329" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0330" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0331" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0332" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0333" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0334" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0335" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0336" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0337" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0338" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0339" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0340" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0341" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0342" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0343" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0344" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0345" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0346" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0347" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0348" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0349" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0350" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0351" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0352" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0353" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0354" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0355" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0356" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0357" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0358" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0359" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0360" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0361" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0362" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0363" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0364" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0365" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0366" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0367" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0368" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0369" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0370" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0371" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0372" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0373" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0374" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0375" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0376" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0377" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0378" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0379" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0380" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0381" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0382" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0383" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0384" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0385" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0386" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0387" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0388" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0389" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0390" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0391" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0392" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0393" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0394" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0395" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0396" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0397" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0398" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0399" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0400" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0401" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0402" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0403" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0404" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0405" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0406" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0407" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0408" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0409" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0410" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0411" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0412" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0413" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0414" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0415" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0416" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0417" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0418" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0419" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0420" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0421" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0422" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0423" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0424" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0425" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0426" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0427" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0428" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0429" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0430" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0431" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0432" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0433" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0434" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0435" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0436" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0437" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0438" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0439" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0440" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0441" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0442" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0443" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0444" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0445" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0446" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0447" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0448" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0449" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0450" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0451" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0452" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0453" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0454" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0455" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0456" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0457" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0458" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0459" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0460" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0461" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0462" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0463" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0464" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0465" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0466" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0467" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0468" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0469" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0470" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0471" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0472" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0473" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0474" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0475" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0476" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0477" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0478" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0479" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0480" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0481" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0482" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0483" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0484" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0485" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0486" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0487" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0488" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0489" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0490" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0491" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0492" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0493" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0494" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0495" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0496" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0497" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0498" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0499" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="ENTER PRESSED0500" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0000" x="4" y="4" width="835" height="506" frameX="0" frameY="-5" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0001" x="4" y="4" width="835" height="506" frameX="0" frameY="-5" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0002" x="4" y="4" width="835" height="506" frameX="0" frameY="-5" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0003" x="4" y="4" width="835" height="506" frameX="0" frameY="-5" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0004" x="4" y="4" width="835" height="506" frameX="0" frameY="-4" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0005" x="4" y="4" width="835" height="506" frameX="0" frameY="-4" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0006" x="4" y="4" width="835" height="506" frameX="0" frameY="-4" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0007" x="4" y="4" width="835" height="506" frameX="0" frameY="-4" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0008" x="4" y="4" width="835" height="506" frameX="0" frameY="-3" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0009" x="4" y="4" width="835" height="506" frameX="0" frameY="-3" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0010" x="4" y="4" width="835" height="506" frameX="0" frameY="-3" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0011" x="4" y="4" width="835" height="506" frameX="0" frameY="-3" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0012" x="4" y="4" width="835" height="506" frameX="0" frameY="-2" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0013" x="4" y="4" width="835" height="506" frameX="0" frameY="-2" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0014" x="4" y="4" width="835" height="506" frameX="0" frameY="-2" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0015" x="4" y="4" width="835" height="506" frameX="0" frameY="-2" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0016" x="4" y="4" width="835" height="506" frameX="0" frameY="-1" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0017" x="4" y="4" width="835" height="506" frameX="0" frameY="-1" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0018" x="4" y="4" width="835" height="506" frameX="0" frameY="-1" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0019" x="4" y="4" width="835" height="506" frameX="0" frameY="-1" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0020" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0021" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0022" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0023" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0024" x="4" y="4" width="835" height="506" frameX="0" frameY="0" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0025" x="4" y="4" width="835" height="506" frameX="0" frameY="-1" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0026" x="4" y="4" width="835" height="506" frameX="0" frameY="-1" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0027" x="4" y="4" width="835" height="506" frameX="0" frameY="-1" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0028" x="4" y="4" width="835" height="506" frameX="0" frameY="-1" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0029" x="4" y="4" width="835" height="506" frameX="0" frameY="-2" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0030" x="4" y="4" width="835" height="506" frameX="0" frameY="-2" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0031" x="4" y="4" width="835" height="506" frameX="0" frameY="-2" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0032" x="4" y="4" width="835" height="506" frameX="0" frameY="-2" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0033" x="4" y="4" width="835" height="506" frameX="0" frameY="-3" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0034" x="4" y="4" width="835" height="506" frameX="0" frameY="-3" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0035" x="4" y="4" width="835" height="506" frameX="0" frameY="-3" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0036" x="4" y="4" width="835" height="506" frameX="0" frameY="-3" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0037" x="4" y="4" width="835" height="506" frameX="0" frameY="-4" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0038" x="4" y="4" width="835" height="506" frameX="0" frameY="-4" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0039" x="4" y="4" width="835" height="506" frameX="0" frameY="-4" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0040" x="4" y="4" width="835" height="506" frameX="0" frameY="-4" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0041" x="4" y="4" width="835" height="506" frameX="0" frameY="-5" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0042" x="4" y="4" width="835" height="506" frameX="0" frameY="-5" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0043" x="4" y="4" width="835" height="506" frameX="0" frameY="-5" frameWidth="890" frameHeight="587"/>
+	<SubTexture name="Press Enter to Begin0044" x="4" y="4" width="835" height="506" frameX="0" frameY="-5" frameWidth="890" frameHeight="587"/>
 </TextureAtlas>
