@@ -1,6 +1,6 @@
 Just Madness Night Funkin 2.0 Source Code
 
-![](https://cdn.discordapp.com/attachments/715161423650619453/916572441927647262/logo.gif)
+![](https://github.com/MerphiG/Madness-Night-Funkin-Source-Code/blob/main/assets/preload/images/titlelogo.png)
 
 -How delete Madness Night Funkin save?
 
