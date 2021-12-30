@@ -10,7 +10,7 @@ class ClientPrefs {
 	public static var easyMode:Bool = false;
 	public static var downScroll:Bool = false;
 	public static var middleScroll:Bool = false;
-	public static var showFPS:Bool = true;
+	public static var showFPS:Bool = false;
 	public static var flashing:Bool = true;
 	public static var globalAntialiasing:Bool = true;
 	public static var noteSplashes:Bool = true;
@@ -25,7 +25,7 @@ class ClientPrefs {
 	public static var arrowHSV:Array<Array<Int>> = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]];
 	public static var imagesPersist:Bool = false;
 	public static var ghostTapping:Bool = true;
-	public static var hideTime:Bool = false;
+	public static var hideTime:Bool = true;
 	public static var disableGPUEff:Bool = false;
 	public static var keSustains:Bool = false;
 	public static var comboOffset:Array<Int> = [0, 0, 0, 0];
