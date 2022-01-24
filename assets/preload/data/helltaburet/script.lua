@@ -52,12 +52,3 @@ function onTimerCompleted(tag, loops, loopsLeft)
     end
 
 end
-
-function onEndSong()
-    if not seenCutscene then
-        startVideo('taburet')
-        seenCutscene = true
-        return Function_Stop
-    end
-    return Function_Continue
-end

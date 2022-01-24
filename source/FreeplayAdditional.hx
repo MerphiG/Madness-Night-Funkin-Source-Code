@@ -18,13 +18,12 @@ import flixel.tweens.FlxTween;
 import lime.utils.Assets;
 import flixel.system.FlxSound;
 import openfl.utils.Assets as OpenFlAssets;
-import WeekData;
 
 using StringTools;
 
-class FreeplayState extends MusicBeatState
+class FreeplayAdditional extends MusicBeatState
 {
-	var songs:Array<SongMetadata> = [];
+	var songs:Array<SongMeta> = [];
 
 	var selector:FlxText;
 	private static var curSelected:Int = 0;
@@ -56,38 +55,16 @@ class FreeplayState extends MusicBeatState
 		#if MODS_ALLOWED
 		Paths.destroyLoadedImages();
 		#end
-		WeekData.reloadWeekFiles(false);
 		#if desktop
-		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
+		DiscordClient.changePresence("In Freeplay Additional Songs", null);
 		#end
 
-		for (i in 0...WeekData.weeksList.length) {
-			var leWeek:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[i]);
-			var leSongs:Array<String> = [];
-			var leChars:Array<String> = [];
-			for (j in 0...leWeek.songs.length) {
-				leSongs.push(leWeek.songs[j][0]);
-				leChars.push(leWeek.songs[j][1]);
-			}
-
-			WeekData.setDirectoryFromWeek(leWeek);
-			for (song in leWeek.songs) {
-				var colors:Array<Int> = song[2];
-				if(colors == null || colors.length < 3) {
-					colors = [146, 113, 253];
-				}
-				addSong(song[0], i, song[1], FlxColor.fromRGB(colors[0], colors[1], colors[2]));
-			}
-		}
-		WeekData.setDirectoryFromWeek();
-
-		var initSonglist = CoolUtil.coolTextFile(Paths.txt('freeplaySonglist'));
+		var initSonglist = CoolUtil.coolTextFile(Paths.txt('freeplaySonglistAdditional'));
 		for (i in 0...initSonglist.length)
 		{
 			if(initSonglist[i] != null && initSonglist[i].length > 0) {
 				var songArray:Array<String> = initSonglist[i].split(":");
-				addSong(songArray[0], 0, songArray[1], Std.parseInt(songArray[2]));
+				addSong(songArray[0], songArray[1], Std.parseInt(songArray[2]));
 			}
 		}
 
@@ -121,7 +98,6 @@ class FreeplayState extends MusicBeatState
 			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
 			// songText.screenCenter(X);
 		}
-		WeekData.setDirectoryFromWeek();
 
 		scoreText = new FlxText(FlxG.width * 0.7, 5, 0, "", 32);
 		scoreText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, RIGHT);
@@ -195,26 +171,10 @@ class FreeplayState extends MusicBeatState
 		super.closeSubState();
 	}
 
-	public function addSong(songName:String, weekNum:Int, songCharacter:String, color:Int)
+	public function addSong(songName:String, songCharacter:String, color:Int)
 	{
-		songs.push(new SongMetadata(songName, weekNum, songCharacter, color));
+		songs.push(new SongMeta(songName, songCharacter, color));
 	}
-
-	/*public function addWeek(songs:Array<String>, weekNum:Int, weekColor:Int, ?songCharacters:Array<String>)
-	{
-		if (songCharacters == null)
-			songCharacters = ['bf'];
-
-		var num:Int = 0;
-		for (song in songs)
-		{
-			addSong(song, weekNum, songCharacters[num]);
-			this.songs[this.songs.length-1].color = weekColor;
-
-			if (songCharacters.length != 1)
-				num++;
-		}
-	}*/
 
 	var instPlaying:Int = -1;
 	private static var vocals:FlxSound = null;
@@ -304,7 +264,7 @@ class FreeplayState extends MusicBeatState
 				colorTween.cancel();
 			}
 			FlxG.sound.play(Paths.sound('cancelMenu'));
-			MusicBeatState.switchState(new MainMenuState());
+			MusicBeatState.switchState(new FreeplayChoice());
 		}
 
 		#if PRELOAD_ALL
@@ -346,8 +306,6 @@ class FreeplayState extends MusicBeatState
 			PlayState.isStoryMode = false;
 			PlayState.storyDifficulty = curDifficulty;
 
-			PlayState.storyWeek = songs[curSelected].week;
-			trace('CURRENT WEEK: ' + WeekData.getWeekFileName());
 			if(colorTween != null) {
 				colorTween.cancel();
 			}
@@ -460,18 +418,16 @@ class FreeplayState extends MusicBeatState
 	}
 }
 
-class SongMetadata
+class SongMeta
 {
 	public var songName:String = "";
-	public var week:Int = 0;
 	public var songCharacter:String = "";
 	public var color:Int = -7179779;
 	public var folder:String = "";
 
-	public function new(song:String, week:Int, songCharacter:String, color:Int)
+	public function new(song:String, songCharacter:String, color:Int)
 	{
 		this.songName = song;
-		this.week = week;
 		this.songCharacter = songCharacter;
 		this.color = color;
 		this.folder = Paths.currentModDirectory;

@@ -1,0 +1,6 @@
+helltaburet:taburet:0xFF782828
+taburgation:extaburet:0xFF501414
+scrapped:scrapface:0xFFC82828
+sanfo:sanfo:0xFF788CFF
+stress:deimos:0xFF788CFF
+trimogus:tikymogus:0xFF4E6E4E

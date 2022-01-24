@@ -3329,7 +3329,7 @@ var reverseXY:Bool = false;
 				if(FlxTransitionableState.skipNextTransIn) {
 					CustomFadeTransition.nextCamera = null;
 				}
-				MusicBeatState.switchState(new FreeplayState());
+				MusicBeatState.switchState(new FreeplayChoice());
 				FlxG.sound.playMusic(Paths.music('freakyMenu'));
 				usedPractice = false;
 				changedDifficulty = false;
